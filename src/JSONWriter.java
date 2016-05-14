@@ -58,9 +58,8 @@ class JSONWriter {
 			sampleInnerElement.put(url,code);
 			//sampleInnerElement.put("attribute_name",attribute);
 			//sampleInnerElement.put("page_id","true");
-
-			jsonattribute.add(sampleInnerElement);
 		}
+		jsonattribute.add(sampleInnerElement);
 		jsonitem.put(attribute, jsonattribute);
 		jsonsite.put(item, jsonitem);
 		obj.put(site, jsonsite);
