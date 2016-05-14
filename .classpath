@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Luca/Magistrale/AGIW/jar/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Luca/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="commons-lang"/>
+			<attribute name="maven.artifactId" value="commons-lang"/>
+			<attribute name="maven.version" value="2.4"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Luca/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.googlecode.json-simple"/>
+			<attribute name="maven.artifactId" value="json-simple"/>
+			<attribute name="maven.version" value="1.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Luca/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.sun.xml.bind"/>
+			<attribute name="maven.artifactId" value="jaxb-impl"/>
+			<attribute name="maven.version" value="2.2.3-1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Luca/Magistrale/AGIW/SecondoProgetto/htmlcleaner-2.16.jar"/>
+	<classpathentry kind="lib" path="C:/Luca/Magistrale/AGIW/SecondoProgetto/gson-2.2.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
