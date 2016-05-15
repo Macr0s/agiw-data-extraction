@@ -33,9 +33,9 @@ import javax.xml.xpath.*;
 //	static String path="//div[@class='label']/text()[preceding-sibling::br]";following
 public class XpathDummy {
 	//static String url="http://www.frys.com/product/7790658;jsessionid=kqpCq6tHkCZWMzkzpc+Y2A__.node4?site=sr:SEARCH:MAIN_RSLT_PG";
-	static String file="sources5601-5800.json";
-	static String site="www.freestylephoto.biz";
-	static String key="5617-Flashes";
+	static String file=PropertiesFile.getFile();
+	static String site=PropertiesFile.getSite();
+	static String key=PropertiesFile.getKey();
 	static String attributePath="//div[@class='span5 product-name-box']/text()[2]";
 	public static void main(String args[]) throws XPathExpressionException, IOException, ParserConfigurationException{
 		List<String> xpathList=new ArrayList<>();
