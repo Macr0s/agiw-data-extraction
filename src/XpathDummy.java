@@ -39,8 +39,10 @@ public class XpathDummy {
 	static String attributePath="//div[@class='span5 product-name-box']/text()[2]";
 	public static void main(String args[]) throws XPathExpressionException, IOException, ParserConfigurationException{
 		List<String> xpathList=new ArrayList<>();
-		xpathList.add("//div[@class='span5 product-name-box']/text()[3]");
+		xpathList.add(PropertiesFile.getXpath());
 		checkAllUrl(JSONReadFromFile.urlList(file, site, key), xpathList);
+		//System.out.println(checkUrlXpath("https://www.frontierpc.com/office-equipment/voice-recorders/digital-voice-recorder/olympus/ws/ws-821-2gb-digital-voice-recorder-v406171su000-1026824171.html", PropertiesFile.getXpath()));
+		//System.out.println(JSONReadFromFile.urlList(file, site, key));
 	}
 	
 	public static String checkUrlXpath(String url, String path)throws XPathExpressionException, IOException, ParserConfigurationException {
@@ -57,24 +59,24 @@ public class XpathDummy {
 			System.out.println(nl.item(i).getNodeValue());
 		    //System.out.println(nl.item(i).getFirstChild().getNodeValue()); 
 		}*/
-		return nl.item(0).getNodeValue().replaceAll(" ", "").replaceAll("\n", "");
+		return nl.item(0).getNodeValue();//.replaceAll(" ", "").replaceAll("\n", "");
 	}
 	public static void checkAllUrl(List<String> urlList, List<String> xpathList) throws XPathExpressionException, IOException, ParserConfigurationException{
 		String item=key.split("-")[1];
 		String code="";
-		String attribute=checkUrlXpath(urlList.get(1), attributePath);
+		//String attribute=checkUrlXpath(urlList.get(1), attributePath);
 		for(String url:urlList){
 			
 			for(String xpath:xpathList){
-				code=checkUrlXpath(url, xpath);
 				System.out.println(url);
+				code=checkUrlXpath(url, xpath);
 				System.out.println(xpath+" = "+checkUrlXpath(url, xpath));
 				
 			}
 			
 		}
-		JSONWriter.writeData(site, item, attribute, urlList, code);
-		JSONWriter.writeXpath(site, item, xpathList, attribute);
+		//JSONWriter.writeData(site, item, attribute, urlList, code);
+		//JSONWriter.writeXpath(site, item, xpathList, attribute);
 		
 	}
 }
