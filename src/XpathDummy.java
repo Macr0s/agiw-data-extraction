@@ -41,7 +41,7 @@ public class XpathDummy {
 		List<String> xpathList=new ArrayList<>();
 		xpathList.add(PropertiesFile.getXpath());
 		checkAllUrl(JSONReadFromFile.urlList(file, site, key), xpathList);
-		//System.out.println(checkUrlXpath("https://www.frontierpc.com/office-equipment/voice-recorders/digital-voice-recorder/olympus/ws/ws-821-2gb-digital-voice-recorder-v406171su000-1026824171.html", PropertiesFile.getXpath()));
+		//System.out.println(checkUrlXpath("https://www.frontierpc.com/storage/storage-arrays/das-array/lacie/5big-thunderbolt-2-professional-5-disk-hardware-raid-9000503u-1027805142.html", PropertiesFile.getXpath()));
 		//System.out.println(JSONReadFromFile.urlList(file, site, key));
 	}
 	
@@ -53,13 +53,14 @@ public class XpathDummy {
 		XPathFactory xPathfactory = XPathFactory.newInstance();
 		XPath xpathObj = xPathfactory.newXPath();
 		XPathExpression expr = xpathObj.compile(path);
-		NodeList nl = (NodeList) expr.evaluate(doc, XPathConstants.NODESET);
+		//NodeList nl = (NodeList) expr.evaluate(doc, XPathConstants.NODESET);
+		String nl = (String) expr.evaluate(doc, XPathConstants.STRING);
 		/*for (int i = 0; i < nl.getLength(); i++) {
 			System.out.println("nel for-----------------------------------------------");
 			System.out.println(nl.item(i).getNodeValue());
 		    //System.out.println(nl.item(i).getFirstChild().getNodeValue()); 
 		}*/
-		return nl.item(0).getNodeValue();//.replaceAll(" ", "").replaceAll("\n", "");
+		return nl;//.item(0).getNodeValue();//.replaceAll(" ", "").replaceAll("\n", "");
 	}
 	public static void checkAllUrl(List<String> urlList, List<String> xpathList) throws XPathExpressionException, IOException, ParserConfigurationException{
 		String item=key.split("-")[1];

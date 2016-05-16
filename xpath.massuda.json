@@ -1,0 +1,25 @@
+{
+  "www.freestylephoto.biz": {
+    "Flashes": [
+      {
+        "page_id": "true",
+        "rule": "//div[@class\u003d\u0027span5 product-name-box\u0027]/text()[3]",
+        "attribute_name": "Model"
+      }
+    ]
+  },
+  "www.frontierpc.com": {
+    "Cabinet Locks": [
+      {
+        "page_id": "true",
+        "rule": "//div[@class\u003d\u0027numbers\u0027]/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID:"
+      },
+      {
+        "page_id": "false",
+        "rule": "//div[@class\u003d\u0027label\u0027]/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part:"
+      }
+    ]
+  }
+}

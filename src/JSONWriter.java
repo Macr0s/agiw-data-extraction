@@ -1,7 +1,13 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.xpath.XPathExpressionException;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -9,19 +15,9 @@ import org.json.simple.JSONObject;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 class JSONWriter {
-	/*static String path="//div[@class='span5 product-name-box']/text()[3]";
-	static String file="sources5601-5800.json";
-	static String site="www.freestylephoto.biz";
-	static String key="5617-Flashes";
-	public static void main(String[] args) {
-		String item=key.split("-")[1];
-		List<String> xpathList=new ArrayList<>();
-		xpathList.add(path);
-		xpathList.add("//div[@class=");
-		String attribute="attr";
-		writeXpath(site, item, xpathList, attribute);
-		writeData(site, item, attribute, "http//", "23");
-	}*/
+	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException {
+		CsvToJson();
+	}
 
 	public static void writeXpath(String site, String item, List<String> xpathList, String attribute){
 		JSONObject obj = new JSONObject();
@@ -56,8 +52,6 @@ class JSONWriter {
 		JSONObject sampleInnerElement = new JSONObject();
 		for(String url:urlList){
 			sampleInnerElement.put(url,code);
-			//sampleInnerElement.put("attribute_name",attribute);
-			//sampleInnerElement.put("page_id","true");
 		}
 		jsonattribute.add(sampleInnerElement);
 		jsonitem.put(attribute, jsonattribute);
@@ -68,6 +62,133 @@ class JSONWriter {
 			FileWriter file = new FileWriter("data.massuda.json",true);
 			Gson gson = new GsonBuilder().setPrettyPrinting().create();
 			String prettyJson = gson.toJson(obj);
+			file.write(prettyJson+"\n");
+			file.flush();
+			file.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void CsvToJson() throws XPathExpressionException, ParserConfigurationException{
+		String csvFile = "AGIW.csv";
+		String precSite="";
+		String currentSite;
+		String page_id;
+		BufferedReader br = null;
+		String line = "";
+		String cvsSplitBy = ",";
+		JSONObject objXpath = new JSONObject();
+		
+		JSONObject objData = new JSONObject();
+		
+
+		try {
+			br = new BufferedReader(new FileReader(csvFile));
+			line = br.readLine();
+			
+			
+			
+			
+			
+			
+			while (line != null) {
+				String[] lineSplit = line.split(cvsSplitBy);
+				currentSite=lineSplit[0];
+				if(!currentSite.equals(precSite)){
+					precSite=currentSite;
+				}
+				JSONObject jsonsite = new JSONObject();
+				JSONArray jsonitem = new JSONArray();//array di rule...
+				JSONObject sampleInnerElement = new JSONObject();//contiene rule, attr ...
+				JSONObject sampleInnerElement2 = new JSONObject();
+				
+				JSONObject jsonsiteData = new JSONObject();
+				JSONObject jsonitemData = new JSONObject();
+				JSONArray jsonattributeData = new JSONArray();
+				JSONArray jsonattribute2Data = new JSONArray();
+				JSONObject sampleInnerElementData = new JSONObject();
+				JSONObject sampleInnerElement2Data = new JSONObject();
+				
+				String item=lineSplit[1].split("-")[1];
+				String key=lineSplit[1];
+				System.out.println(currentSite+" "+key);
+				page_id=lineSplit[3];
+				//JSONReadFromFile.urlList(PropertiesFile.getFile(), currentSite, key);
+
+				sampleInnerElement.put("rule",lineSplit[2]);
+				sampleInnerElement.put("attribute_name",lineSplit[3]);
+				sampleInnerElement.put("page_id",lineSplit[4].toLowerCase());
+				jsonitem.add(sampleInnerElement);
+				//System.out.println("jsonitem = "+jsonitem.toString());
+				if(lineSplit.length>5){
+					sampleInnerElement2.put("rule",lineSplit[5]);
+					sampleInnerElement2.put("attribute_name",lineSplit[6]);
+					sampleInnerElement2.put("page_id",lineSplit[7].toLowerCase());
+					jsonitem.add(sampleInnerElement2);
+					//System.out.println("jsonitem2 = "+jsonitem.toString());
+				}
+				//System.out.println("----"+item);
+				jsonsite.put(item, jsonitem);
+				//System.out.println("jsonsite = "+jsonsite.toString());
+				objXpath.put(currentSite, jsonsite);
+				List<String> urlList =JSONReadFromFile.urlList(PropertiesFile.getFile(), currentSite, key);
+				for(String url:urlList){
+					String value=XpathDummy.checkUrlXpath(url, lineSplit[2]).replaceAll(" ", "").replaceAll("\n", "");
+					System.out.println(value);
+					sampleInnerElementData.put(url,value);
+					if(lineSplit.length>5){
+						String value2=XpathDummy.checkUrlXpath(url, lineSplit[5]).replaceAll(" ", "").replaceAll("\n", "");
+						System.out.println(value2);
+						sampleInnerElement2Data.put(url,value2);
+					}
+					//jsonattributeData.add(sampleInnerElementData);
+				}
+				jsonattributeData.add(sampleInnerElementData);
+				jsonattribute2Data.add(sampleInnerElement2Data);
+				jsonitemData.put(lineSplit[3], jsonattributeData);
+				if(lineSplit.length>5){
+					jsonitemData.put(lineSplit[6], jsonattributeData);
+				}
+				jsonsiteData.put(item, jsonitemData);
+				objData.put(currentSite, jsonsiteData);
+			
+				//System.out.println("obj = "+objXpath.toString());
+				//System.out.println("prima = "+line);
+				line = br.readLine();
+				//System.out.println("dopo = "+line);
+				precSite=currentSite;
+				currentSite=lineSplit[0];
+
+			}
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if (br != null) {
+				try {
+					br.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		try {
+			FileWriter file = new FileWriter("xpath.massuda.json");
+			Gson gson = new GsonBuilder().setPrettyPrinting().create();
+			String prettyJson = gson.toJson(objXpath);
+			file.write(prettyJson+"\n");
+			file.flush();
+			file.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		try {
+			FileWriter file = new FileWriter("data.massuda.json");
+			Gson gson = new GsonBuilder().setPrettyPrinting().create();
+			String prettyJson = gson.toJson(objData);
 			file.write(prettyJson+"\n");
 			file.flush();
 			file.close();
