@@ -45,16 +45,40 @@ public class XpathDummy {
 		//System.out.println(JSONReadFromFile.urlList(file, site, key));
 	}
 	
-	public static String checkUrlXpath(String url, String path)throws XPathExpressionException, IOException, ParserConfigurationException {
-		Document doc2 = Jsoup.connect(url).get();
+	public static String checkUrlXpath(String url, String path) {
+		Document doc2 = null;
+		try {
+			doc2 = Jsoup.connect(url).get();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		String html = doc2.html();
 		TagNode tagNode = new HtmlCleaner().clean(html);
-		org.w3c.dom.Document doc = new DomSerializer(new CleanerProperties()).createDOM(tagNode);
+		org.w3c.dom.Document doc = null;
+		try {
+			doc = new DomSerializer(new CleanerProperties()).createDOM(tagNode);
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		XPathFactory xPathfactory = XPathFactory.newInstance();
 		XPath xpathObj = xPathfactory.newXPath();
-		XPathExpression expr = xpathObj.compile(path);
+		XPathExpression expr = null;
+		try {
+			expr = xpathObj.compile(path);
+		} catch (XPathExpressionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		//NodeList nl = (NodeList) expr.evaluate(doc, XPathConstants.NODESET);
-		String nl = (String) expr.evaluate(doc, XPathConstants.STRING);
+		String nl = null;
+		try {
+			nl = (String) expr.evaluate(doc, XPathConstants.STRING);
+		} catch (XPathExpressionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		/*for (int i = 0; i < nl.getLength(); i++) {
 			System.out.println("nel for-----------------------------------------------");
 			System.out.println(nl.item(i).getNodeValue());

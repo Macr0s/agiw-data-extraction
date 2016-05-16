@@ -1,24 +1,24 @@
 {
-  "www.freestylephoto.biz": {
-    "Flashes": [
+  "www.focusedtechnology.com": {
+    "Projectors": [
       {
         "page_id": "true",
-        "rule": "//div[@class\u003d\u0027span5 product-name-box\u0027]/text()[3]",
-        "attribute_name": "Model"
+        "rule": "//div[@class\u003d\u0027sku\u0027]/text()",
+        "attribute_name": "Part Number"
       }
     ]
   },
-  "www.frontierpc.com": {
-    "Cabinet Locks": [
+  "www.forwardforward.com": {
+    "sunglasses": [
       {
         "page_id": "true",
-        "rule": "//div[@class\u003d\u0027numbers\u0027]/div/text()[preceding-sibling::b]",
-        "attribute_name": "Web ID:"
+        "rule": "(//div[@class\u003d\u0027product_detail\u0027]/ul/li)[last()-1]",
+        "attribute_name": "Our Style No."
       },
       {
-        "page_id": "false",
-        "rule": "//div[@class\u003d\u0027label\u0027]/../div[2]/span/text()",
-        "attribute_name": "Mfr. Part:"
+        "page_id": "true",
+        "rule": "(//div[@class\u003d\u0027product_detail\u0027]/ul/li)[last()-1]",
+        "attribute_name": "Manufacturer Style No."
       }
     ]
   }

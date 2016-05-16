@@ -1,2 +1,57 @@
-www.freestylephoto.biz,5617-Flashes,//div[@class='span5 product-name-box']/text()[3],Model,TRUE
-www.frontierpc.com,5622-Cabinet Locks,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID:,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part:,FALSE
+www.focusedtechnology.com,5602-NEC Lamps,//div[@class='sku']/text(),Part Number,TRUE,,,,,,
+www.focusedtechnology.com,5604-Projector Carrying Cases,//div[@class='sku']/text(),Part Number,TRUE,,,,,,
+www.focusedtechnology.com,5605-Projectors,//div[@class='sku']/text(),Part Number,TRUE,,,,,,
+www.forwardforward.com,5615-sunglasses,(//div[@class='product_detail']/ul/li)[last()-1],Our Style No.,TRUE,(//div[@class='product_detail']/ul/li)[last()-1],Manufacturer Style No.,TRUE,,,
+www.freestylephoto.biz,5617-Flashes,//div[@class='span5 product-name-box']/text()[3],Model:,TRUE,,,,,,
+www.freestylephoto.biz,5618-Plastic Cameras,//div[@class='span5 product-name-box']/text()[3],Model:,TRUE,,,,,,
+www.frontierpc.com,5622-Cabinet Locks,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5623-Carrying Cases,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5624-Chairs and Seating,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5625-Digital Still Cameras,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5626-Drive Cabinets,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5627-Dry Erase Boards,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5628-Hole Punchers,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5629-IP Phones,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5630-Laser Printers,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5631-Monitors,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5632-Power Supplies,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5633-Sheet Folders,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5634-Storage Arrays,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5635-Thermal Labels,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5636-Transfer Switches,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5637-USB Cables,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5638-USB/Firewire Adapters,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5639-VIEW ALL CABLES AND ADAPTERS,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5640-VIEW ALL ELECTRONICS,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5641-VIEW ALL INPUT DEVICES,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5642-VIEW ALL OFFICE SUPPLIES,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5643-Video Door Phones,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,,,
+www.frontierpc.com,5644-Voice Recorders,//div[@class='numbers']/div/text()[preceding-sibling::b],Web ID,TRUE,//div[@class='label']/../div[2]/span/text(),Mfr. Part,TRUE,"//*[@id=""fpcMain""]/div[3]/div[2]/div[2]/div[2]/div/div[1]/div[2]/div[1]/div[2]/span",,
+www.frys.com,5646-Antenna Accessories,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5647-Batteries,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5648-Batteries - Photo,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5649-Books,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5650-Cables & Connectivity,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5651-Calendars & Planners,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5652-Car Security & Safety Systems,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5653-Card Stock & Construction Paper,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5654-Cell Phone Cases,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5655-Cell Phone Screen Protectors,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5656-Cleaning Kits,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5657-Disposals,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5658-Home Automation Accessories,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5659-Home Automation Controllers,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5660-Locks,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5661-Phones & Communications,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5662-Portable Audio Cases & Covers,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5663-Programming,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5664-Reference,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5665-Remote Controls,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5666-Routers,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5667-Sound Bars,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5668-Switches,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5669-Tablet Screen Protection,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5670-Telephone Accessories,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5672-headphone,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5673-iPad Cables & Adapters,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE
+www.frys.com,5674-iPad Cleaning Kits,"//*[@id=""ProductAttributes""]/ui/li[1]/text()",Frys.com #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[3]/text()",UPC #,TRUE,"//*[@id=""ProductAttributes""]/ui/li[4]/text()",Model #,TRUE

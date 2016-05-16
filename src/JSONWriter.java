@@ -138,7 +138,7 @@ class JSONWriter {
 					System.out.println(value);
 					sampleInnerElementData.put(url,value);
 					if(lineSplit.length>5){
-						String value2=XpathDummy.checkUrlXpath(url, lineSplit[5]).replaceAll(" ", "").replaceAll("\n", "");
+						String value2=XpathDummy.checkUrlXpath(url, lineSplit[5]).replaceAll("\n", "");//.replaceAll(" ", "");
 						System.out.println(value2);
 						sampleInnerElement2Data.put(url,value2);
 					}
