@@ -15,6 +15,7 @@ import org.json.simple.JSONObject;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+
 class JSONWriter {
 	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException {
 		//writeXpathJson();
@@ -53,9 +54,11 @@ class JSONWriter {
 		JSONObject jsonitem = new JSONObject();
 		JSONArray jsonattribute = new JSONArray();
 		JSONObject sampleInnerElement = new JSONObject();
+		
 		for(String url:urlList){
 			sampleInnerElement.put(url,code);
 		}
+		
 		jsonattribute.add(sampleInnerElement);
 		jsonitem.put(attribute, jsonattribute);
 		jsonsite.put(item, jsonitem);
@@ -71,6 +74,7 @@ class JSONWriter {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
 	}
 
 	public static void CsvToJson() throws XPathExpressionException, ParserConfigurationException{

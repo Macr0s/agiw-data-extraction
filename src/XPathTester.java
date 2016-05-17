@@ -7,15 +7,17 @@ import javax.xml.xpath.XPathExpressionException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
-public class XPathTester{
-	private static String htmlPage="http://www.fullcompass.com/product/305897.html";
-	private static String xpath="//div";
+public class XPathTester {
+	private static String htmlPage = "http://www.fullcompass.com/product/305897.html";
+	private static String xpath = "//div";
+
 	public static void main(String args[]) throws XPathExpressionException, IOException, ParserConfigurationException {
 		execute();
 	}
+
 	public XPathTester(String htmlPage, String xpath) {
-		this.htmlPage = htmlPage;
-		this.xpath = xpath;
+		XPathTester.htmlPage = htmlPage;
+		XPathTester.xpath = xpath;
 	}
 
 	public static void execute() {
@@ -33,4 +35,5 @@ public class XPathTester{
 			e.printStackTrace();
 		}
 	}
+	
 }
