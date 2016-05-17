@@ -1,6 +1,6 @@
 {
-  "www.focusedtechnology.com":
-    {"NEC Lamps": {
+  "www.focusedtechnology.com": {
+    "NEC Lamps": {
       "Part Number": [
         {"http://www.focusedtechnology.com/lt20lp.html": "            Part Number: LT20LP           "}
         {"http://www.focusedtechnology.com/lt10lp.html": "            Part Number: LT10LP           "}
@@ -10,7 +10,7 @@
         {"http://www.focusedtechnology.com/nec-gt60lp.html": "            Part Number: GT60LP           "}
       ]
     },
-    {"Projector Carrying Cases": {
+    "Projector Carrying Cases": {
       "Part Number": [
         {"http://www.focusedtechnology.com/pelican-1620-020-110.html": "            Part Number: 1620-020-110           "}
         {"http://www.focusedtechnology.com/portersoftie250.html": "            Part Number: SOFTIE           "}
@@ -18,14 +18,15 @@
         {"http://www.focusedtechnology.com/jelco-jel-3325er.html": "            Part Number: JEL-3325ER           "}
       ]
     },
-    {"Projectors": {
+    "Projectors": {
       "Part Number": [
         {"http://www.focusedtechnology.com/panasonic-pt-ae8000u-projector.html": "            Part Number: PT-AE8000U           "}
         {"http://www.focusedtechnology.com/panasonic-pt-rz470uw-projector.html": "            Part Number: PT-RZ470UW           "}
       ]
-    },
-  "www.forwardforward.com":
-    {"sunglasses": {
+    }
+  },
+  "www.forwardforward.com": {
+    "sunglasses": {
       "Our Style No.": [
         {"http://www.forwardforward.com/product-brinley-sunglasses/OPEO-WG49/?&pdpsrc=rec1&sectionURL=Direct+Hit&d=null": "Our Style No. OPEO-WG49"}
         {"http://www.forwardforward.com/product-mirror-two-toned-sunglasses/SMCC-WG32/?&pdpsrc=rec1&sectionURL=Direct+Hit&d=null": "Our Style No. SMCC-WG32"}
@@ -48,9 +49,10 @@
         {"http://www.forwardforward.com/product-polarized-emmy-sunglasses/OPEO-WG44/?&pdpsrc=rec1&sectionURL=Direct+Hit&d=null": "Our Style No. OPEO-WG44"}
         {"http://www.forwardforward.com/product-mirror-wayfarer-sunglasses/SMCC-WG34/?&pdpsrc=rec1&sectionURL=Direct+Hit&d=null": "Our Style No. SMCC-WG34"}
       ]
-    },
-  "www.freestylephoto.biz":
-    {"Flashes": {
+    }
+  },
+  "www.freestylephoto.biz": {
+    "Flashes": {
       "Model:": [
         {"http://www.freestylephoto.biz/4809-Nikon-SB-910-AF-Speedlight": "4809          "}
         {"http://www.freestylephoto.biz/282120-Holga-15B-Manual-Flash-with-Colored-Filters": "282120          "}
@@ -65,7 +67,7 @@
         {"http://www.freestylephoto.biz/151120-Holga-Holgon-MF-Flash": "151120          "}
       ]
     },
-    {"Plastic Cameras": {
+    "Plastic Cameras": {
       "Model:": [
         {"http://www.freestylephoto.biz/223135-HolgaGlo-135BC-Glows-in-the-Dark!-Solar-Yellow": "223135          "}
         {"http://www.freestylephoto.biz/185120-Holga-120N-Medium-Format-Plastic-Camera-Holgawood-Collection-Sunset": "185120          "}
@@ -92,5 +94,6 @@
         {"http://www.freestylephoto.biz/294120-Holga-120N-Camera-Gretchen-Bleiler-Edition": "294120          "}
         {"http://www.freestylephoto.biz/312120-HolgaGlo-120N-Glows-in-the-Dark!-Aura-Orange": "312120          "}
       ]
-    },
+    }
+  }
 }
