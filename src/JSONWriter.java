@@ -193,19 +193,18 @@ class JSONWriter {
 
 	public static void writeXpathJson(){
 		try {
-			String csvFile = "AGIW.csv";
+			String csvFile = "AGIW.tsv";
 			String precSite="";
 			String currentSite;
 			FileWriter xpathFile = new FileWriter("xpath.massuda.json",true);
 			BufferedReader br = null;
 			String line = "";
-			String cvsSplitBy = ",";
+			String cvsSplitBy = "\t";
 			br = new BufferedReader(new FileReader(csvFile));
 			line = br.readLine();//salto descrizione
 			line = br.readLine();
 			xpathFile.write("{\n");
 			while (line != null) {
-
 				String[] lineSplit = line.split(cvsSplitBy);
 				currentSite=lineSplit[0];
 				if(!currentSite.equals(precSite)){
@@ -221,23 +220,16 @@ class JSONWriter {
 				xpathFile.write("        \"attribute_name\": \""+lineSplit[3]+"\",\n");
 				xpathFile.write("        \"page_id\": \""+lineSplit[4].toLowerCase()+"\"\n");
 				if(lineSplit.length>5 && !lineSplit[5].equals("")){
-					//xpathFile.write("      },\n");
-					//xpathFile.write("      {\n");
 					xpathFile.write("        \"rule\": \""+lineSplit[5]+"\",\n");
 					xpathFile.write("        \"attribute_name\": \""+lineSplit[6]+"\",\n");
 					xpathFile.write("        \"page_id\": \""+lineSplit[7].toLowerCase()+"\"\n");
 				}
 				if(lineSplit.length>8 && !lineSplit[8].equals("")){
-					//xpathFile.write("      },\n");
-					//xpathFile.write("      {\n");
 					xpathFile.write("        \"rule\": \""+lineSplit[8]+"\",\n");
 					xpathFile.write("        \"attribute_name\": \""+lineSplit[9]+"\",\n");
 					xpathFile.write("        \"page_id\": \""+lineSplit[10].toLowerCase()+"\"\n");
 				}
 				xpathFile.write("      }\n");
-
-				//xpathFile.write("    ],\n");
-				//xpathFile.write("  },\n");
 				line = br.readLine();
 				if(line!=null){
 					precSite=currentSite;
@@ -246,7 +238,6 @@ class JSONWriter {
 						xpathFile.write("    ],\n");
 					}
 					else {
-						System.out.println("dentro else");
 						xpathFile.write("    ]\n");
 						xpathFile.write("  },\n");
 					}
@@ -255,7 +246,6 @@ class JSONWriter {
 					xpathFile.write("    ]\n");
 					xpathFile.write("  }\n");
 				}
-
 			}
 			xpathFile.write("}");
 			xpathFile.flush();
@@ -267,13 +257,13 @@ class JSONWriter {
 
 	public static void writeDataJson(){
 		try {
-			String csvFile = "AGIW.csv";
+			String csvFile = "AGIW.tsv";
 			String precSite="";
 			String currentSite;
 			FileWriter dataFile = new FileWriter("data.massuda.json",true);
 			BufferedReader br = null;
 			String line = "";
-			String cvsSplitBy = ",";
+			String cvsSplitBy = "\t";
 			br = new BufferedReader(new FileReader(csvFile));
 			line = br.readLine();//salto descrizione
 			line = br.readLine();
@@ -295,7 +285,6 @@ class JSONWriter {
 					dataFile.write("        {\""+url+"\": \""+XpathDummy.checkUrlXpath(url, lineSplit[2]).replaceAll("\n", "")+"\"}\n");
 				}
 				if(lineSplit.length>5 && !lineSplit[5].equals("")){
-					//dataFile.write("},\n");
 					dataFile.write("      ],\n");
 					dataFile.write("      \""+lineSplit[6]+"\": [\n");
 					for(String url:urlList){
@@ -303,15 +292,12 @@ class JSONWriter {
 					}
 				}
 				if(lineSplit.length>8 && !lineSplit[8].equals("")){
-					//dataFile.write("},\n");
 					dataFile.write("      \""+lineSplit[9]+"\": [\n");
 					for(String url:urlList){
-						dataFile.write("        {\""+url+"\": \""+XpathDummy.checkUrlXpath(url, lineSplit[5])+"\"}\n");
+						dataFile.write("        {\""+url+"\": \""+XpathDummy.checkUrlXpath(url, lineSplit[8])+"\"}\n");
 					}
 				}
-				//dataFile.write("}\n");
 				dataFile.write("      ]\n");
-				//dataFile.write("    },\n");
 				line = br.readLine();
 				if(line!=null){
 					precSite=currentSite;
@@ -323,13 +309,11 @@ class JSONWriter {
 						dataFile.write("    }\n");
 						dataFile.write("  },\n");
 					}
-
 				}
 				else{
 					dataFile.write("    }\n");
 					dataFile.write("  }\n");
 				}
-
 			}
 			dataFile.write("}");
 			dataFile.flush();
