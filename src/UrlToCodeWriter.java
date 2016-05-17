@@ -62,9 +62,9 @@ public class UrlToCodeWriter {
 						value = (String) expr.evaluate(doc, XPathConstants.STRING);
 						complete_line=complete_line+","+value.replaceAll("\n", "");
 					}
+					System.out.println(complete_line);
+					dataFile.write(complete_line+"\n");
 				}
-				System.out.println(complete_line);
-				dataFile.write(complete_line+"\n");
 			}
 			dataFile.flush();
 			dataFile.close();
