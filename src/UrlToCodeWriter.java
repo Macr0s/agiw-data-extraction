@@ -1,17 +1,18 @@
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
-
+import java.util.Map;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
-
 import org.htmlcleaner.CleanerProperties;
 import org.htmlcleaner.DomSerializer;
 import org.htmlcleaner.HtmlCleaner;
@@ -21,9 +22,40 @@ import org.jsoup.nodes.Document;
 
 public class UrlToCodeWriter {
 	public static void main(String args[]){
-		UrlToCode();
+		//UrlToCode();
+		Map<String, List<String>> url2Codes = putCsvIntoMap();
+		System.out.println(url2Codes.keySet().size());
+		System.out.println(url2Codes.get("http://www.forwardforward.com/product-brinley-sunglasses/OPEO-WG49/?&pdpsrc=rec1&sectionURL=Direct+Hit&d=null"));
 	}
 
+	//mappa usata per andare più veloci in fase di ricerca url
+	public static Map<String, List<String>> putCsvIntoMap(){
+		Map<String, List<String>> url2Codes = new HashMap<String, List<String>>();
+		try {
+			String line = "";
+			String cvsSplitBy = ",";
+			String csvFile = "urlToCode";
+			BufferedReader br = new BufferedReader(new FileReader(csvFile));
+			while ((line = br.readLine()) != null) {
+				String[] lineSplit = line.split(cvsSplitBy);
+				List<String> codeList = new ArrayList<String>();//deve mantenere ordinamento con cui li inserisco
+				for(int i=1;i<lineSplit.length;i++){
+					codeList.add(lineSplit[i]);
+				}
+				url2Codes.put(lineSplit[0], codeList);
+			}
+			br.close();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return url2Codes;
+	}
+
+	// preso il csv scrive un altro csv con i link e i vari codici
 	public static void UrlToCode(){
 		try {
 			String value="";

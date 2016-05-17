@@ -35,6 +35,53 @@ public class PropertiesFile {
 			}
 		}
 	}
+	public static String getDataCognome(){
+		String path = null;
+		Properties prop = new Properties();
+		InputStream input = null;
+		try {
+			input = new FileInputStream("config.properties");
+			// load a properties file
+			prop.load(input);
+			path=prop.getProperty("data.cognome");
+			return path;
+		} catch (IOException ex) {
+			ex.printStackTrace();
+			return path;
+		} finally {
+			if (input != null) {
+				try {
+					input.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+	
+	public static String getXpathCognome(){
+		String path = null;
+		Properties prop = new Properties();
+		InputStream input = null;
+		try {
+			input = new FileInputStream("config.properties");
+			// load a properties file
+			prop.load(input);
+			path=prop.getProperty("xpath.cognome");
+			return path;
+		} catch (IOException ex) {
+			ex.printStackTrace();
+			return path;
+		} finally {
+			if (input != null) {
+				try {
+					input.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
 	
 	public static String getXpath(){
 		String path = null;

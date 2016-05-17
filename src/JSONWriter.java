@@ -5,6 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.xpath.XPathExpressionException;
@@ -17,7 +18,7 @@ import com.google.gson.GsonBuilder;
 class JSONWriter {
 	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException {
 		//writeXpathJson();
-		writeDataJson();
+		writeDataJsonFromTwoCsv();
 		//CsvToJson();
 	}
 
@@ -196,7 +197,7 @@ class JSONWriter {
 			String csvFile = "AGIW.tsv";
 			String precSite="";
 			String currentSite;
-			FileWriter xpathFile = new FileWriter("xpath.massuda.json",true);
+			FileWriter xpathFile = new FileWriter(PropertiesFile.getXpathCognome(),true);
 			BufferedReader br = null;
 			String line = "";
 			String cvsSplitBy = "\t";
@@ -260,7 +261,7 @@ class JSONWriter {
 			String csvFile = "AGIW.tsv";
 			String precSite="";
 			String currentSite;
-			FileWriter dataFile = new FileWriter("data.massuda.json",true);
+			FileWriter dataFile = new FileWriter(PropertiesFile.getDataCognome(),true);
 			BufferedReader br = null;
 			String line = "";
 			String cvsSplitBy = "\t";
@@ -292,6 +293,7 @@ class JSONWriter {
 					}
 				}
 				if(lineSplit.length>8 && !lineSplit[8].equals("")){
+					dataFile.write("      ],\n");
 					dataFile.write("      \""+lineSplit[9]+"\": [\n");
 					for(String url:urlList){
 						dataFile.write("        {\""+url+"\": \""+XpathDummy.checkUrlXpath(url, lineSplit[8])+"\"}\n");
@@ -318,6 +320,80 @@ class JSONWriter {
 			dataFile.write("}");
 			dataFile.flush();
 			dataFile.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	//da iniziare
+	public static void writeDataJsonFromTwoCsv(){
+		try {
+			String csvFile = "AGIW.tsv";
+			Map<String, List<String>> url2Codes = UrlToCodeWriter.putCsvIntoMap();
+			String precSite="";
+			String currentSite;
+			FileWriter dataFile = new FileWriter(PropertiesFile.getDataCognome(),true);
+			BufferedReader br = null;
+			String line = "";
+			String cvsSplitBy = "\t";
+			br = new BufferedReader(new FileReader(csvFile));
+			line = br.readLine();//salto descrizione
+			line = br.readLine();
+			dataFile.write("{\n");
+			while (line != null) {
+				String[] lineSplit = line.split(cvsSplitBy);
+				currentSite=lineSplit[0];
+				if(!currentSite.equals(precSite)){
+					precSite=currentSite;
+					dataFile.write("  \""+currentSite+"\": {\n");
+				}
+				String item=lineSplit[1].split("-",2)[1];
+				String key=lineSplit[1];
+				System.out.println(currentSite+" - "+key);
+				dataFile.write("    \""+item+"\": {\n");
+				dataFile.write("      \""+lineSplit[3]+"\": [\n");
+				List<String> urlList =JSONReadFromFile.urlList(PropertiesFile.getFile(), currentSite, key);
+				for(String url:urlList){
+					dataFile.write("        {\""+url+"\": \""+url2Codes.get(url).toArray()[0].toString()+"\"}\n");
+					//dataFile.write("        {\""+url+"\": \""+XpathDummy.checkUrlXpath(url, lineSplit[2]).replaceAll("\n", "")+"\"}\n");
+				}
+				if(lineSplit.length>5 && !lineSplit[5].equals("")){
+					dataFile.write("      ],\n");
+					dataFile.write("      \""+lineSplit[6]+"\": [\n");
+					for(String url:urlList){
+						dataFile.write("        {\""+url+"\": \""+url2Codes.get(url).toArray()[1].toString()+"\"}\n");
+						//dataFile.write("        {\""+url+"\": \""+XpathDummy.checkUrlXpath(url, lineSplit[5])+"\"}\n");
+					}
+				}
+				if(lineSplit.length>8 && !lineSplit[8].equals("")){
+					dataFile.write("      ],\n");
+					dataFile.write("      \""+lineSplit[9]+"\": [\n");
+					for(String url:urlList){
+						dataFile.write("        {\""+url+"\": \""+url2Codes.get(url).toArray()[2].toString()+"\"}\n");
+						//dataFile.write("        {\""+url+"\": \""+XpathDummy.checkUrlXpath(url, lineSplit[8])+"\"}\n");
+					}
+				}
+				dataFile.write("      ]\n");
+				line = br.readLine();
+				if(line!=null){
+					precSite=currentSite;
+					currentSite=line.split(cvsSplitBy)[0];
+					if(precSite.equals(currentSite)){
+						dataFile.write("    },\n");
+					}
+					else{
+						dataFile.write("    }\n");
+						dataFile.write("  },\n");
+					}
+				}
+				else{
+					dataFile.write("    }\n");
+					dataFile.write("  }\n");
+				}
+			}
+			dataFile.write("}");
+			dataFile.flush();
+			dataFile.close();
+			br.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
