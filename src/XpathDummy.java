@@ -71,10 +71,11 @@ public class XpathDummy {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		//NodeList nl = (NodeList) expr.evaluate(doc, XPathConstants.NODESET);
-		String nl = null;
+		//NodeList nl = null;
+		String s = null;
 		try {
-			nl = (String) expr.evaluate(doc, XPathConstants.STRING);
+			//nl = (NodeList) expr.evaluate(doc, XPathConstants.NODESET);
+			s = (String) expr.evaluate(doc, XPathConstants.STRING);
 		} catch (XPathExpressionException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -84,7 +85,7 @@ public class XpathDummy {
 			System.out.println(nl.item(i).getNodeValue());
 		    //System.out.println(nl.item(i).getFirstChild().getNodeValue()); 
 		}*/
-		return nl;//.item(0).getNodeValue();//.replaceAll(" ", "").replaceAll("\n", "");
+		return s;//nl.item(0).getFirstChild().getNodeValue();//.replaceAll(" ", "").replaceAll("\n", "");
 	}
 	public static void checkAllUrl(List<String> urlList, List<String> xpathList) throws XPathExpressionException, IOException, ParserConfigurationException{
 		String item=key.split("-")[1];

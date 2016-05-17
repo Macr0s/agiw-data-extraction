@@ -218,20 +218,20 @@ class JSONWriter {
 				xpathFile.write("      {\n");
 				xpathFile.write("        \"rule\": \""+lineSplit[2]+"\",\n");
 				xpathFile.write("        \"attribute_name\": \""+lineSplit[3]+"\",\n");
-				xpathFile.write("        \"page_id\": \""+lineSplit[4]+"\"\n");
+				xpathFile.write("        \"page_id\": \""+lineSplit[4].toLowerCase()+"\"\n");
 				if(lineSplit.length>5 && !lineSplit[5].equals("")){
 					//xpathFile.write("      },\n");
 					//xpathFile.write("      {\n");
 					xpathFile.write("        \"rule\": \""+lineSplit[5]+"\",\n");
 					xpathFile.write("        \"attribute_name\": \""+lineSplit[6]+"\",\n");
-					xpathFile.write("        \"page_id\": \""+lineSplit[7]+"\"\n");
+					xpathFile.write("        \"page_id\": \""+lineSplit[7].toLowerCase()+"\"\n");
 				}
 				if(lineSplit.length>8 && !lineSplit[8].equals("")){
 					//xpathFile.write("      },\n");
 					//xpathFile.write("      {\n");
 					xpathFile.write("        \"rule\": \""+lineSplit[8]+"\",\n");
 					xpathFile.write("        \"attribute_name\": \""+lineSplit[9]+"\",\n");
-					xpathFile.write("        \"page_id\": \""+lineSplit[10]+"\"\n");
+					xpathFile.write("        \"page_id\": \""+lineSplit[10].toLowerCase()+"\"\n");
 				}
 				xpathFile.write("      }\n");
 
