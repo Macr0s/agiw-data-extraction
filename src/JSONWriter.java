@@ -16,7 +16,9 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 class JSONWriter {
 	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException {
-		CsvToJson();
+		//writeXpathJson();
+		writeDataJson();
+		//CsvToJson();
 	}
 
 	public static void writeXpath(String site, String item, List<String> xpathList, String attribute){
@@ -79,19 +81,11 @@ class JSONWriter {
 		String line = "";
 		String cvsSplitBy = ",";
 		JSONObject objXpath = new JSONObject();
-		
 		JSONObject objData = new JSONObject();
-		
 
 		try {
 			br = new BufferedReader(new FileReader(csvFile));
 			line = br.readLine();
-			
-			
-			
-			
-			
-			
 			while (line != null) {
 				String[] lineSplit = line.split(cvsSplitBy);
 				currentSite=lineSplit[0];
@@ -113,7 +107,7 @@ class JSONWriter {
 				String item=lineSplit[1].split("-")[1];
 				String key=lineSplit[1];
 				System.out.println(currentSite+" "+key);
-				page_id=lineSplit[3];
+				//page_id=lineSplit[3];
 				//JSONReadFromFile.urlList(PropertiesFile.getFile(), currentSite, key);
 
 				sampleInnerElement.put("rule",lineSplit[2]);
@@ -192,6 +186,123 @@ class JSONWriter {
 			file.write(prettyJson+"\n");
 			file.flush();
 			file.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void writeXpathJson(){
+		try {
+			String csvFile = "AGIW.csv";
+			String precSite="";
+			String currentSite;
+			FileWriter xpathFile = new FileWriter("xpath.massuda.json",true);
+			BufferedReader br = null;
+			String line = "";
+			String cvsSplitBy = ",";
+			br = new BufferedReader(new FileReader(csvFile));
+			line = br.readLine();
+			xpathFile.write("{\n");
+			while (line != null) {
+				
+				String[] lineSplit = line.split(cvsSplitBy);
+				currentSite=lineSplit[0];
+				if(!currentSite.equals(precSite)){
+					precSite=currentSite;
+					xpathFile.write("  \""+currentSite+"\":\n");
+				}
+				String item=lineSplit[1].split("-")[1];
+				String key=lineSplit[1];
+				System.out.println(currentSite+" - "+key);
+				xpathFile.write("    {\""+item+"\": [\n");
+				xpathFile.write("      {\n");
+				xpathFile.write("        \"rule\": \""+lineSplit[2]+"\",\n");
+				xpathFile.write("        \"attribute_name\": \""+lineSplit[3]+"\",\n");
+				xpathFile.write("        \"page_id\": \""+lineSplit[4]+"\"\n");
+				if(lineSplit.length>5 && !lineSplit[5].equals("")){
+					xpathFile.write("      },\n");
+					xpathFile.write("      {\n");
+					xpathFile.write("        \"rule\": \""+lineSplit[5]+"\",\n");
+					xpathFile.write("        \"attribute_name\": \""+lineSplit[6]+"\",\n");
+					xpathFile.write("        \"page_id\": \""+lineSplit[7]+"\"\n");
+				}
+				if(lineSplit.length>8 && !lineSplit[8].equals("")){
+					xpathFile.write("      },\n");
+					xpathFile.write("      {\n");
+					xpathFile.write("        \"rule\": \""+lineSplit[8]+"\",\n");
+					xpathFile.write("        \"attribute_name\": \""+lineSplit[9]+"\",\n");
+					xpathFile.write("        \"page_id\": \""+lineSplit[10]+"\"\n");
+				}
+				xpathFile.write("      }\n");
+				xpathFile.write("    ]\n");
+				xpathFile.write("  },\n");
+				line = br.readLine();
+				precSite=currentSite;
+				currentSite=lineSplit[0];
+				
+			}
+			xpathFile.write("}");
+			xpathFile.flush();
+			xpathFile.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void writeDataJson(){
+		try {
+			String csvFile = "AGIW.csv";
+			String precSite="";
+			String currentSite;
+			FileWriter dataFile = new FileWriter("data.massuda.json",true);
+			BufferedReader br = null;
+			String line = "";
+			String cvsSplitBy = ",";
+			br = new BufferedReader(new FileReader(csvFile));
+			line = br.readLine();
+			dataFile.write("{\n");
+			while (line != null) {
+				String[] lineSplit = line.split(cvsSplitBy);
+				currentSite=lineSplit[0];
+				if(!currentSite.equals(precSite)){
+					precSite=currentSite;
+					dataFile.write("  \""+currentSite+"\":\n");
+				}
+				String item=lineSplit[1].split("-")[1];
+				String key=lineSplit[1];
+				System.out.println(currentSite+" - "+key);
+				dataFile.write("    {\""+item+"\": {\n");
+				dataFile.write("      \""+lineSplit[3]+"\": [\n");
+				List<String> urlList =JSONReadFromFile.urlList(PropertiesFile.getFile(), currentSite, key);
+				for(String url:urlList){
+					dataFile.write("        {\""+url+"\": \""+XpathDummy.checkUrlXpath(url, lineSplit[2]).replaceAll("\n", "")+"\"}\n");
+				}
+				if(lineSplit.length>5 && !lineSplit[5].equals("")){
+					//dataFile.write("},\n");
+					dataFile.write("      ],\n");
+					dataFile.write("      \""+lineSplit[6]+"\": [\n");
+					for(String url:urlList){
+						dataFile.write("        {\""+url+"\": \""+XpathDummy.checkUrlXpath(url, lineSplit[5])+"\"}\n");
+					}
+				}
+				if(lineSplit.length>8 && !lineSplit[8].equals("")){
+					//dataFile.write("},\n");
+					dataFile.write("      \""+lineSplit[9]+"\": [\n");
+					for(String url:urlList){
+						dataFile.write("        {\""+url+"\": \""+XpathDummy.checkUrlXpath(url, lineSplit[5])+"\"}\n");
+					}
+				}
+				//dataFile.write("}\n");
+				dataFile.write("      ]\n");
+				dataFile.write("    },\n");
+				line = br.readLine();
+				precSite=currentSite;
+				currentSite=lineSplit[0];
+				
+			}
+			dataFile.write("}");
+			dataFile.flush();
+			dataFile.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
