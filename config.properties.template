@@ -1,0 +1,6 @@
+data.cognome=data.massuda.json
+xpath.cognome=xpath.massuda.json
+file=sources5601-5800.json
+site=www.forwardforward.com
+key=5615-sunglasses
+xpath=(//div[@class='product_detail']/ul/li)[last()]
