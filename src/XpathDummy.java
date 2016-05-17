@@ -44,40 +44,25 @@ public class XpathDummy {
 		//System.out.println(checkUrlXpath("https://www.frontierpc.com/storage/storage-arrays/das-array/lacie/5big-thunderbolt-2-professional-5-disk-hardware-raid-9000503u-1027805142.html", PropertiesFile.getXpath()));
 		//System.out.println(JSONReadFromFile.urlList(file, site, key));
 	}
-	
+
 	public static String checkUrlXpath(String url, String path) {
-		Document doc2 = null;
-		try {
-			doc2 = Jsoup.connect(url).get();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		String html = doc2.html();
-		TagNode tagNode = new HtmlCleaner().clean(html);
-		org.w3c.dom.Document doc = null;
-		try {
-			doc = new DomSerializer(new CleanerProperties()).createDOM(tagNode);
-		} catch (ParserConfigurationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		XPathFactory xPathfactory = XPathFactory.newInstance();
-		XPath xpathObj = xPathfactory.newXPath();
-		XPathExpression expr = null;
-		try {
-			expr = xpathObj.compile(path);
-		} catch (XPathExpressionException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		//NodeList nl = null;
 		String s = null;
 		try {
+			Document doc2 = Jsoup.connect(url).get();
+			String html = doc2.html();
+			TagNode tagNode = new HtmlCleaner().clean(html);
+			org.w3c.dom.Document doc = new DomSerializer(new CleanerProperties()).createDOM(tagNode);
+			XPathFactory xPathfactory = XPathFactory.newInstance();
+			XPath xpathObj = xPathfactory.newXPath();
+			XPathExpression expr = xpathObj.compile(path);
+			//NodeList nl = null;
 			//nl = (NodeList) expr.evaluate(doc, XPathConstants.NODESET);
 			s = (String) expr.evaluate(doc, XPathConstants.STRING);
 		} catch (XPathExpressionException e) {
-			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ParserConfigurationException e) {
 			e.printStackTrace();
 		}
 		/*for (int i = 0; i < nl.getLength(); i++) {
@@ -92,17 +77,17 @@ public class XpathDummy {
 		String code="";
 		//String attribute=checkUrlXpath(urlList.get(1), attributePath);
 		for(String url:urlList){
-			
+
 			for(String xpath:xpathList){
 				System.out.println(url);
 				code=checkUrlXpath(url, xpath);
 				System.out.println(xpath+" = "+checkUrlXpath(url, xpath));
-				
+
 			}
-			
+
 		}
 		//JSONWriter.writeData(site, item, attribute, urlList, code);
 		//JSONWriter.writeXpath(site, item, xpathList, attribute);
-		
+
 	}
 }

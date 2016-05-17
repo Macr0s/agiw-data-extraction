@@ -211,7 +211,7 @@ class JSONWriter {
 					precSite=currentSite;
 					xpathFile.write("  \""+currentSite+"\": {\n");
 				}
-				String item=lineSplit[1].split("-")[1];
+				String item=lineSplit[1].split("-",2)[1];
 				String key=lineSplit[1];
 				System.out.println(currentSite+" - "+key);
 				xpathFile.write("    \""+item+"\": [\n");
@@ -283,7 +283,7 @@ class JSONWriter {
 					precSite=currentSite;
 					dataFile.write("  \""+currentSite+"\": {\n");
 				}
-				String item=lineSplit[1].split("-")[1];
+				String item=lineSplit[1].split("-",2)[1];
 				String key=lineSplit[1];
 				System.out.println(currentSite+" - "+key);
 				dataFile.write("    \""+item+"\": {\n");
