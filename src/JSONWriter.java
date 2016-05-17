@@ -201,6 +201,7 @@ class JSONWriter {
 			String line = "";
 			String cvsSplitBy = ",";
 			br = new BufferedReader(new FileReader(csvFile));
+			line = br.readLine();//salto descrizione
 			line = br.readLine();
 			xpathFile.write("{\n");
 			while (line != null) {
@@ -274,6 +275,7 @@ class JSONWriter {
 			String line = "";
 			String cvsSplitBy = ",";
 			br = new BufferedReader(new FileReader(csvFile));
+			line = br.readLine();//salto descrizione
 			line = br.readLine();
 			dataFile.write("{\n");
 			while (line != null) {
