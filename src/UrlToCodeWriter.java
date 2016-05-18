@@ -78,7 +78,7 @@ public class UrlToCodeWriter {
 				List<String> urlList = JSONReadFromFile.urlList(PropertiesFile.getFile(), currentSite, key);
 
 				for (String url : urlList) {
-					String html = "";
+					/*String html = "";
 					XPathFactory xPathfactory = XPathFactory.newInstance();
 					XPath xpathObj = xPathfactory.newXPath();
 
@@ -87,19 +87,20 @@ public class UrlToCodeWriter {
 					} catch (IOException e) {
 						value = "IOException";
 						e.printStackTrace();
-					}
+					}*/
 
 					completeLine = url;
 
 					int i = 2;
 					while (i < lineSplit.length && !lineSplit[i].equals("")) {
 						if (lineSplit[i + 2].toLowerCase().equals("true")) {
-							TagNode tagNode = new HtmlCleaner().clean(html);
+							value=XpathDummy.cleanerString(url, lineSplit[2]);//riga che fa il controllo
+							/*TagNode tagNode = new HtmlCleaner().clean(html);
 							org.w3c.dom.Document doc = new DomSerializer(new CleanerProperties()).createDOM(tagNode);
 							XPathExpression expr = xpathObj.compile(lineSplit[2]);
 							if (!value.equals("IOException")) {
 								value = (String) expr.evaluate(doc, XPathConstants.STRING);
-							}
+							}*/
 							completeLine = completeLine + "\t" + value.replaceAll("\n", "");
 						}
 						i = i + 3;
@@ -124,10 +125,10 @@ public class UrlToCodeWriter {
 			br.close();
 		} catch (IOException e) {
 			e.printStackTrace();
-		} catch (XPathExpressionException e) {
+		/*} catch (XPathExpressionException e) {
 			e.printStackTrace();
 		} catch (ParserConfigurationException e) {
-			e.printStackTrace();
+			e.printStackTrace();*/
 		}
 	}
 }
