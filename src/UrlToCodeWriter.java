@@ -84,8 +84,22 @@ public class UrlToCodeWriter {
 					XPathExpression expr = xpathObj.compile(lineSplit[2]);
 					value = (String) expr.evaluate(doc, XPathConstants.STRING);
 
+<<<<<<< HEAD
+					complete_line=url+","+value.replaceAll("\n", "");
+					/*while(int i=5<lineSplit.lenght){
+					 	if(lineSplit[i+2]==true){
+					 	  expr = xpathObj.compile(lineSplit[i]);
+						value = (String) expr.evaluate(doc, XPathConstants.STRING);
+						complete_line=complete_line+","+value.replaceAll("\n", "");
+						}
+						i=i+3;
+					 }
+					 */
+					if(lineSplit.length>5 && !lineSplit[5].equals("")){
+=======
 					complete_line = url + "\t" + value.replaceAll("\n", "");
 					if (lineSplit.length > 5 && !lineSplit[5].equals("")) {
+>>>>>>> branch 'master' of https://Massida@bitbucket.org/Massida/dataextraction.git
 						expr = xpathObj.compile(lineSplit[5]);
 						value = (String) expr.evaluate(doc, XPathConstants.STRING);
 						complete_line = complete_line + "\t" + value.replaceAll("\n", "");

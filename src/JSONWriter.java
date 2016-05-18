@@ -224,6 +224,13 @@ class JSONWriter {
 				xpathFile.write("        \"rule\": \""+lineSplit[2]+"\",\n");
 				xpathFile.write("        \"attribute_name\": \""+lineSplit[3]+"\",\n");
 				xpathFile.write("        \"page_id\": \""+lineSplit[4].toLowerCase()+"\"\n");
+				/*while (int i=5<lineSplit.lenght)
+				    xpathFile.write("        \"rule\": \""+lineSplit[i]+"\",\n");
+				    i++;
+					xpathFile.write("        \"attribute_name\": \""+lineSplit[i]+"\",\n");
+					i++;
+					xpathFile.write("        \"page_id\": \""+lineSplit[i].toLowerCase()+"\"\n");
+					i++;	*/
 				if(lineSplit.length>5 && !lineSplit[5].equals("")){
 					xpathFile.write("        \"rule\": \""+lineSplit[5]+"\",\n");
 					xpathFile.write("        \"attribute_name\": \""+lineSplit[6]+"\",\n");
