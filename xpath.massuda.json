@@ -36,57 +36,6 @@
       }
     ]
   },
-  "www.forever21.com": {
-    "CONTEMPORARY": [
-      {
-        "rule": "(//article[@class='ac-small']/text())[last()]",
-        "attribute_name": "Product Code",
-        "page_id": "true"
-      }
-    ],
-    "Hats & Scarves": [
-      {
-        "rule": "(//article[@class='ac-small']/text())[last()]",
-        "attribute_name": "Product Code",
-        "page_id": "true"
-      }
-    ],
-    "Last Chance Deals": [
-      {
-        "rule": "(//article[@class='ac-small']/text())[last()]",
-        "attribute_name": "Product Code",
-        "page_id": "true"
-      }
-    ],
-    "New Arrivals": [
-      {
-        "rule": "(//article[@class='ac-small']/text())[last()]",
-        "attribute_name": "Product Code",
-        "page_id": "true"
-      }
-    ],
-    "Swim": [
-      {
-        "rule": "(//article[@class='ac-small']/text())[last()]",
-        "attribute_name": "Product Code",
-        "page_id": "true"
-      }
-    ],
-    "Trousers": [
-      {
-        "rule": "(//article[@class='ac-small']/text())[last()]",
-        "attribute_name": "Product Code",
-        "page_id": "true"
-      }
-    ],
-    "sunglasses": [
-      {
-        "rule": "(//article[@class='ac-small']/text())[last()]",
-        "attribute_name": "Product Code",
-        "page_id": "true"
-      }
-    ]
-  },
   "www.forwardforward.com": {
     "sunglasses": [
       {
