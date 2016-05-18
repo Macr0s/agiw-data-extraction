@@ -4,6 +4,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
@@ -18,8 +19,8 @@ import com.google.gson.GsonBuilder;
 
 class JSONWriter {
 	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException {
-		writeXpathJson();
-		//writeDataJsonFromTwoCsv();
+//		writeXpathJson();
+		writeDataJsonFromTwoCsv();
 		//CsvToJson();
 	}
 
@@ -343,7 +344,7 @@ class JSONWriter {
 	//da iniziare
 	public static void writeDataJsonFromTwoCsv(){
 		try {
-			String csvFile = PropertiesFile.getTSV();
+			String tsvFile = PropertiesFile.getTSV();
 			Map<String, List<String>> url2Codes = UrlToCodeWriter.putCsvIntoMap();
 			String precSite="";
 			String currentSite;
@@ -351,13 +352,14 @@ class JSONWriter {
 			BufferedReader br = null;
 			String line = "";
 			String cvsSplitBy = "\t";
-			br = new BufferedReader(new FileReader(csvFile));
+			br = new BufferedReader(new FileReader(tsvFile));
 			line = br.readLine();//salto descrizione
 			line = br.readLine();
 			dataFile.write("{\n");
 			while (line != null) {
 				String[] lineSplit = line.split(cvsSplitBy);
 				currentSite=lineSplit[0];
+				
 				if(!currentSite.equals(precSite)){
 					precSite=currentSite;
 					dataFile.write("  \""+currentSite+"\": {\n");
@@ -366,12 +368,48 @@ class JSONWriter {
 				String key=lineSplit[1];
 				System.out.println(currentSite+" - "+key);
 				dataFile.write("    \""+item+"\": {\n");
-				dataFile.write("      \""+lineSplit[3]+"\": [\n");
+
 				List<String> urlList =JSONReadFromFile.urlList(PropertiesFile.getFile(), currentSite, key);
+				
+				// creo la lista di attributi a true
+				List<String> trueAttributeList = new LinkedList<String>();
+
+				int i = 3;
+				while (i < lineSplit.length) {
+					if (lineSplit[i].equals("TRUE") || lineSplit[i].equals("1")) {
+						trueAttributeList.add(lineSplit[i - 1]);
+					}
+					i++;
+				}
+				
+				
+				int ii = 0;
+				for (String trueAttribute : trueAttributeList) {
+					dataFile.write("      \"" + trueAttribute + "\": [\n");
+					for (String url : urlList) {
+						Object[] urlArray = url2Codes.get(url).toArray();
+						if (urlArray.length == 0) {
+							dataFile.write("        {\"" + url+ "\": \"\"}\n");
+						} else {
+							dataFile.write("        {\"" + url + "\": \"" + urlArray[ii].toString() + "\"}\n");
+						}
+					}
+					
+					if(ii != trueAttributeList.size() - 1) {
+						dataFile.write("      ],\n");
+					} else {
+						dataFile.write("      ]\n");
+					}
+					ii++;
+				}
+				
+				
+				/*
 				for(String url:urlList){
 					dataFile.write("        {\""+url+"\": \""+url2Codes.get(url).toArray()[0].toString()+"\"}\n");
 					//dataFile.write("        {\""+url+"\": \""+XpathDummy.checkUrlXpath(url, lineSplit[2]).replaceAll("\n", "")+"\"}\n");
 				}
+				
 				if(lineSplit.length>5 && !lineSplit[5].equals("")){
 					dataFile.write("      ],\n");
 					dataFile.write("      \""+lineSplit[6]+"\": [\n");
@@ -389,6 +427,8 @@ class JSONWriter {
 					}
 				}
 				dataFile.write("      ]\n");
+				*/
+				
 				line = br.readLine();
 				if(line!=null){
 					precSite=currentSite;

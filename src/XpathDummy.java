@@ -25,7 +25,7 @@ public class XpathDummy {
 	static String xpath = PropertiesFile.getXpath();
 	static String url = "http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2990-43112";
 
-	public static void main(String args[]){
+	public static void main(String args[]) {
 		//System.out.println(cleanerString("http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2990-43112",xpath));
 		checkAllUrl(JSONReadFromFile.urlList(file, site, key), xpath);
 		//System.out.println(checkUrlXpath("https://www.frontierpc.com/storage/storage-arrays/das-array/lacie/5big-thunderbolt-2-professional-5-disk-hardware-raid-9000503u-1027805142.html", PropertiesFile.getXpath()));
@@ -60,23 +60,23 @@ public class XpathDummy {
 		return s;//nl.item(0).getFirstChild().getNodeValue();//.replaceAll(" ", "").replaceAll("\n", "");
 	}
 
-	public static void checkAllUrl(List<String> urlList, String xpath){
+	public static void checkAllUrl(List<String> urlList, String xpath) {
 		String item = key.split("-")[1];
 		String code = "";
 		//String attribute=checkUrlXpath(urlList.get(1), attributePath);
 		for (String url : urlList) {
 			System.out.println(url);
 			code = cleanerString(url, xpath);
-			System.out.println(xpath+"= "+code);
+			System.out.println(xpath + "= " + code);
 		}
 		//JSONWriter.writeData(site, item, attribute, urlList, code);
 		//JSONWriter.writeXpath(site, item, xpathList, attribute);
 
 	}
 
-	public static String cleanerString(String url, String xpath){
-		String s="link errato";
-		try{
+	public static String cleanerString(String url, String xpath) {
+		String s = "link errato";
+		try {
 			String html = Jsoup.connect(url).get().html();
 			TagNode tagNode = new HtmlCleaner().clean(html);
 			org.w3c.dom.Document doc = new DomSerializer(new CleanerProperties()).createDOM(tagNode);
@@ -84,17 +84,17 @@ public class XpathDummy {
 			XPath xpathObj = xPathfactory.newXPath();
 			XPathExpression expr = xpathObj.compile(xpath);
 			s = (String) expr.evaluate(doc, XPathConstants.STRING);
-			if(s.equals(""))
-				s="NoValueFound";
+			if (s.equals(""))
+				s = "NoValueFound";
 		} catch (XPathExpressionException e) {
 			e.printStackTrace();
-			s="XPathExpressionException";
+			s = "XPathExpressionException";
 		} catch (IOException e) {
 			e.printStackTrace();
-			s="IOException";
+			s = "IOException";
 		} catch (ParserConfigurationException e) {
 			e.printStackTrace();
-			s="ParserConfigurationException";
+			s = "ParserConfigurationException";
 		}
 		return s;
 	}

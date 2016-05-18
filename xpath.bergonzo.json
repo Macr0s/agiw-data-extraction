@@ -1,0 +1,1517 @@
+{
+  "www.focusedtechnology.com": {
+    "Microphones": [
+      {
+        "rule": "//div[@class='sku']/text()",
+        "attribute_name": "Part Number",
+        "page_id": "true"
+      }
+    ],
+    "NEC Lamps": [
+      {
+        "rule": "//div[@class='sku']/text()",
+        "attribute_name": "Part Number",
+        "page_id": "true"
+      }
+    ],
+    "Projector Carrying Cases": [
+      {
+        "rule": "//div[@class='sku']/text()",
+        "attribute_name": "Part Number",
+        "page_id": "true"
+      }
+    ],
+    "Projectors": [
+      {
+        "rule": "//div[@class='sku']/text()",
+        "attribute_name": "Part Number",
+        "page_id": "true"
+      }
+    ]
+  },
+  "www.forwardforward.com": {
+    "sunglasses": [
+      {
+        "rule": "(//div[@class='product_detail']/ul/li)[last()-1]",
+        "attribute_name": "Our Style No.",
+        "page_id": "true"
+      }
+      {
+        "rule": "(//div[@class='product_detail']/ul/li)[last()]",
+        "attribute_name": "Manufacturer Style No.",
+        "page_id": "true"
+      }
+    ]
+  },
+  "www.freestylephoto.biz": {
+    "Flashes": [
+      {
+        "rule": "//div[@class='span5 product-name-box']/text()[3]",
+        "attribute_name": "Model:",
+        "page_id": "true"
+      }
+    ],
+    "Plastic Cameras": [
+      {
+        "rule": "//div[@class='span5 product-name-box']/text()[3]",
+        "attribute_name": "Model:",
+        "page_id": "true"
+      }
+    ]
+  },
+  "www.frontierpc.com": {
+    "Cabinet Locks": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "Carrying Cases": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "Chairs and Seating": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "Digital Still Cameras": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "Drive Cabinets": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "Dry Erase Boards": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "Hole Punchers": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "IP Phones": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "Laser Printers": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "Monitors": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "Power Supplies": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "Sheet Folders": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "Storage Arrays": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "Thermal Labels": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "Transfer Switches": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "USB Cables": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "USB/Firewire Adapters": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "VIEW ALL CABLES AND ADAPTERS": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "VIEW ALL ELECTRONICS": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "VIEW ALL INPUT DEVICES": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "VIEW ALL OFFICE SUPPLIES": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "Video Door Phones": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ],
+    "Voice Recorders": [
+      {
+        "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
+        "attribute_name": "Web ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//div[@class='label']/../div[2]/span/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "true"
+      }
+    ]
+  },
+  "www.frys.com": {
+    "Antenna Accessories": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Batteries": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Batteries - Photo": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Books": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Cables & Connectivity": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Calendars & Planners": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Car Security & Safety Systems": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Card Stock & Construction Paper": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Cell Phone Cases": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Cell Phone Screen Protectors": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Cleaning Kits": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Disposals": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Home Automation Accessories": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Home Automation Controllers": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Locks": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Phones & Communications": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Portable Audio Cases & Covers": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Reference": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Remote Controls": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Routers": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Sound Bars": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Switches": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Tablet Screen Protection": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Telephone Accessories": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "headphone": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "iPad Cables & Adapters": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "iPad Cleaning Kits": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ]
+  },
+  "www.fullcompass.com": {
+    "1 / 4\" to 1 / 8\" Mini Adapters": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "500 Series Preamps": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Accessories and Parts for Lighting fixtures": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Accessories for Signal Processors": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Accessories for Speakers": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Accessories, Adaptors for Lighting": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Accessories, Computer": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Accessories, Misc for Still Cameras": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Acoustic Wall / Ceiling Materials": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Amplifier Transformers": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Attenuators, Passive Level Control": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Bass Combo Amps": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Bass Guitar Packages": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Bass Guitars, 6+ String": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Blocks": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Blu - Ray Recorders": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Brushes": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "CD Player Accessories, Remotes": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Cable Labels": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Cards, Option for cameras": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "China Cymbals": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Chroma Key Controllers and Accessories": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Clip - On / Miniature Mics and Acoustic Pickups": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Compressors": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Computer Monitors": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "DMX Cables": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "DVD Players": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "DVD for Video Discs": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Delays": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Distribution Amplifiers, Video Digital": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Drum Hardware Packages": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Drum Kits / Packs": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Drum Machines": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "EQ and Filter Pedals": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Earbuds, Earsets, In - Ear Earphones": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Effect Cymbals and Gongs": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Electronic Drum Kits": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Electronic Drum Monitors": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Emulator, Simulator, and Modeler Pedals": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Expanders, Gates": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "External Optical Drives": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "F Connectors": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "F to F Adapters": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Feedback Suppressors": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Filters, Glass, Dichroic": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Flash for Still Cameras": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Floor Pockets, Stage Boxes, Table Top Boxes, Accessories": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Gel String, Color Changer Gel": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Groove Controllers and Sequencers": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Guitar Multi - Effect Pedals": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Heat Guns, Shrink Tools": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Isolators, Hum Eliminators": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Lasers": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Lenses for Light Fixtures": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Lighting for equipment / consoles, Littlite": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Line Amps, Level Matching Amps": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Line Array Microphones": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Marching Cymbals": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Melodicas": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Microphone Shock Mounts": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Microphone Spring Arm": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Misc Tools": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Misc. Bass Strings": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Misc. Keyboard Accessories": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Misc. Pedals": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Misc. USB and MIDI Controllers": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Mixers 32 inputs or more for Sound Reinforcement": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Mixers Commercial, Zone, Paging, Background Music, No Amplifier": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Module, Kit Mixers": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Modules for Wireless Receivers": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Monitor Muting / Tally Controller": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Monitors, Subwoofer + Satellite Systems": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Multi - Pin Audio Connectors": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Paging / Dispatch Microphones": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Pedalboard Power Supplies and Distribution": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Pedalboards and Pedalboard Cases": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Phaser Pedals": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Pickguards": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Pipe and Drape, Table and Stage Skirting": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Power Adapters, Y's and T's": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "RCA to XLR Adapters": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "RF Accessories": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "RF Amplifiers": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Rackmount and Tabletop Guitar Effects": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "SDI Extenders": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Sand Bags": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Semi - Hollow Body Electric Guitars": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Single Bass Strings": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Speakon, Speaker Connectors": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Splitters / Combiners, Microphone Level": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Surveillance Video Recorders": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Synthesizers": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Tremolo and Vibrato Pedals": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Truss Segments": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Tuning Machines for Guitars": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "USB Adapters": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Vocal Processors, Trainers": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Wireless Plug - In Microphone Single Systems": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Wireless Video / Data Components, Devices": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Worship Presentation Software": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "XDCAM Video Discs": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "XLR to XLR Adapters": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ]
+  }
+}
