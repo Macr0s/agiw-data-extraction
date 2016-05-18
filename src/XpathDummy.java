@@ -84,8 +84,6 @@ public class XpathDummy {
 			XPath xpathObj = xPathfactory.newXPath();
 			XPathExpression expr = xpathObj.compile(xpath);
 			s = (String) expr.evaluate(doc, XPathConstants.STRING);
-			if (s.equals(""))
-				s = "NoValueFound";
 		} catch (XPathExpressionException e) {
 			e.printStackTrace();
 			s = "XPathExpressionException";
