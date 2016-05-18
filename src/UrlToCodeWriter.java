@@ -22,10 +22,11 @@ import org.jsoup.nodes.Document;
 
 public class UrlToCodeWriter {
 	public static void main(String args[]){
-		//UrlToCode();
-		Map<String, List<String>> url2Codes = putCsvIntoMap();
+		UrlToCode();
+		/*Map<String, List<String>> url2Codes = putCsvIntoMap();
 		System.out.println(url2Codes.keySet().size());
 		System.out.println(url2Codes.get("http://www.forwardforward.com/product-brinley-sunglasses/OPEO-WG49/?&pdpsrc=rec1&sectionURL=Direct+Hit&d=null"));
+	*/
 	}
 
 	//mappa usata per andare più veloci in fase di ricerca url
@@ -81,18 +82,18 @@ public class UrlToCodeWriter {
 					XPath xpathObj = xPathfactory.newXPath();
 					XPathExpression expr = xpathObj.compile(lineSplit[2]);
 					value = (String) expr.evaluate(doc, XPathConstants.STRING);
-
 					complete_line=url+"\t"+value.replaceAll("\n", "");
-					/*while(int i=5<lineSplit.lenght){
-					 	if(lineSplit[i+2]==true){
-					 	  expr = xpathObj.compile(lineSplit[i]);
-						value = (String) expr.evaluate(doc, XPathConstants.STRING);
-						complete_line=complete_line+","+value.replaceAll("\n", "");
+					int i=5;
+					while(i<lineSplit.length && !lineSplit[i].equals("")){
+						if(lineSplit[i+2].toLowerCase().equals("true")){
+							expr = xpathObj.compile(lineSplit[i]);
+							value = (String) expr.evaluate(doc, XPathConstants.STRING);
+							complete_line=complete_line+"\t"+value.replaceAll("\n", "");
 						}
 						i=i+3;
-					 }
-					 */
-					if(lineSplit.length>5 && !lineSplit[5].equals("")){
+					}
+
+					/*if(lineSplit.length>5 && !lineSplit[5].equals("")){
 						expr = xpathObj.compile(lineSplit[5]);
 						value = (String) expr.evaluate(doc, XPathConstants.STRING);
 						complete_line=complete_line+"\t"+value.replaceAll("\n", "");
@@ -101,7 +102,7 @@ public class UrlToCodeWriter {
 						expr = xpathObj.compile(lineSplit[8]);
 						value = (String) expr.evaluate(doc, XPathConstants.STRING);
 						complete_line=complete_line+"\t"+value.replaceAll("\n", "");
-					}
+					}*/
 					System.out.println(complete_line);
 					dataFile.write(complete_line+"\n");
 				}

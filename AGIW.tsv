@@ -2,7 +2,7 @@ Site	Key	rule	attribute_name	page_id	rule	attribute_name	page_id
 www.focusedtechnology.com	5602-NEC Lamps	//div[@class='sku']/text()	Part Number	TRUE						
 www.focusedtechnology.com	5604-Projector Carrying Cases	//div[@class='sku']/text()	Part Number	TRUE						
 www.focusedtechnology.com	5605-Projectors	//div[@class='sku']/text()	Part Number	TRUE						
-www.forwardforward.com	5615-sunglasses	(//div[@class='product_detail']/ul/li)[last()-1]	Our Style No.	TRUE	(//div[@class='product_detail']/ul/li)[last()-1]	Manufacturer Style No.	TRUE			
+www.forwardforward.com	5615-sunglasses	(//div[@class='product_detail']/ul/li)[last()-1]	Our Style No.	TRUE	(//div[@class='product_detail']/ul/li)[last()]	Manufacturer Style No.	TRUE			
 www.freestylephoto.biz	5617-Flashes	//div[@class='span5 product-name-box']/text()[3]	Model:	TRUE						
 www.freestylephoto.biz	5618-Plastic Cameras	//div[@class='span5 product-name-box']/text()[3]	Model:	TRUE						
 www.frontierpc.com	5622-Cabinet Locks	//div[@class='numbers']/div/text()[preceding-sibling::b]	Web ID	TRUE	//div[@class='label']/../div[2]/span/text()	Mfr. Part	TRUE			
@@ -156,4 +156,4 @@ www.fullcompass.com	5781-Wireless Plug - In Microphone Single Systems	//*[@id="P
 www.fullcompass.com	5782-Wireless Video / Data Components, Devices	//*[@id="ProductInfo"]/p/text()	OUR PART #	TRUE						
 www.fullcompass.com	5783-Worship Presentation Software	//*[@id="ProductInfo"]/p/text()	OUR PART #	TRUE						
 www.fullcompass.com	5784-XDCAM Video Discs	//*[@id="ProductInfo"]/p/text()	OUR PART #	TRUE						
-www.fullcompass.com	5785-XLR to XLR Adapters	//*[@id="ProductInfo"]/p/text()	OUR PART #	TRUE						
+www.fullcompass.com	5785-XLR to XLR Adapters	//*[@id="ProductInfo"]/p/text()	OUR PART #	TRUE														

@@ -28,7 +28,9 @@
         "rule": "(//div[@class='product_detail']/ul/li)[last()-1]",
         "attribute_name": "Our Style No.",
         "page_id": "true"
-        "rule": "(//div[@class='product_detail']/ul/li)[last()-1]",
+      }
+      {
+        "rule": "(//div[@class='product_detail']/ul/li)[last()]",
         "attribute_name": "Manufacturer Style No.",
         "page_id": "true"
       }
@@ -56,6 +58,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -66,6 +70,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -76,6 +82,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -86,6 +94,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -96,6 +106,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -106,6 +118,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -116,6 +130,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -126,6 +142,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -136,6 +154,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -146,6 +166,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -156,6 +178,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -166,6 +190,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -176,6 +202,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -186,6 +214,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -196,6 +226,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -206,6 +238,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -216,6 +250,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -226,6 +262,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -236,6 +274,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -246,6 +286,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -256,6 +298,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -266,6 +310,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -276,6 +322,8 @@
         "rule": "//div[@class='numbers']/div/text()[preceding-sibling::b]",
         "attribute_name": "Web ID",
         "page_id": "true"
+      }
+      {
         "rule": "//div[@class='label']/../div[2]/span/text()",
         "attribute_name": "Mfr. Part",
         "page_id": "true"
@@ -288,9 +336,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -301,9 +353,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -314,9 +370,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -327,9 +387,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -340,9 +404,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -353,9 +421,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -366,9 +438,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -379,9 +455,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -392,9 +472,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -405,9 +489,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -418,9 +506,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -431,9 +523,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -444,9 +540,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -457,9 +557,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -470,9 +574,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -483,9 +591,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -496,9 +608,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -509,9 +625,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -522,9 +642,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -535,9 +659,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -548,9 +676,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -561,9 +693,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -574,9 +710,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -587,9 +727,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -600,9 +744,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -613,9 +761,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
@@ -626,9 +778,13 @@
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/text()",
         "attribute_name": "UPC #",
         "page_id": "true"
+      }
+      {
         "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
         "attribute_name": "Model #",
         "page_id": "true"
