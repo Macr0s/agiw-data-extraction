@@ -34,13 +34,13 @@ public class UrlToCodeWriter {
 		try {
 			String line = "";
 			String cvsSplitBy = ",";
-			String csvFile = "urlToCode";
+			String csvFile = PropertiesFile.getUrlToCode();
 			BufferedReader br = new BufferedReader(new FileReader(csvFile));
 			while ((line = br.readLine()) != null) {
 				String[] lineSplit = line.split(cvsSplitBy);
 				List<String> codeList = new ArrayList<String>();//deve mantenere ordinamento con cui li inserisco
 				for(int i=1;i<lineSplit.length;i++){
-					codeList.add(lineSplit[i]);
+					codeList.add(lineSplit[i].replaceAll("  ", ""));
 				}
 				url2Codes.put(lineSplit[0], codeList);
 			}
@@ -59,9 +59,9 @@ public class UrlToCodeWriter {
 	public static void UrlToCode(){
 		try {
 			String value="";
-			String csvFile = "AGIW.tsv";
+			String csvFile = PropertiesFile.getTSV();
 			String currentSite;
-			FileWriter dataFile = new FileWriter("urlToCode",true);
+			FileWriter dataFile = new FileWriter(PropertiesFile.getUrlToCode(),true);
 			BufferedReader br = new BufferedReader(new FileReader(csvFile));
 			String line = "";
 			String cvsSplitBy = "\t";
@@ -74,8 +74,7 @@ public class UrlToCodeWriter {
 				//System.out.println(currentSite+" - "+key);
 				List<String> urlList =JSONReadFromFile.urlList(PropertiesFile.getFile(), currentSite, key);
 				for(String url:urlList){
-					Document doc2 = Jsoup.connect(url).get();
-					String html = doc2.html();
+					String html = Jsoup.connect(url).get().html();
 					TagNode tagNode = new HtmlCleaner().clean(html);
 					org.w3c.dom.Document doc = new DomSerializer(new CleanerProperties()).createDOM(tagNode);
 					XPathFactory xPathfactory = XPathFactory.newInstance();

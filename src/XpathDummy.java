@@ -22,12 +22,12 @@ public class XpathDummy {
 	static String file = PropertiesFile.getFile();
 	static String site = PropertiesFile.getSite();
 	static String key = PropertiesFile.getKey();
-	static String attributePath = "//div[@class='span5 product-name-box']/text()[2]";
+	static String xpath = PropertiesFile.getXpath();
+	static String url = "http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2990-43112";
 
-	public static void main(String args[]) throws XPathExpressionException, IOException, ParserConfigurationException {
-		List<String> xpathList = new ArrayList<>();
-		xpathList.add(PropertiesFile.getXpath());
-		checkAllUrl(JSONReadFromFile.urlList(file, site, key), xpathList);
+	public static void main(String args[]){
+		//System.out.println(cleanerString("http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2990-43112",xpath));
+		checkAllUrl(JSONReadFromFile.urlList(file, site, key), xpath);
 		//System.out.println(checkUrlXpath("https://www.frontierpc.com/storage/storage-arrays/das-array/lacie/5big-thunderbolt-2-professional-5-disk-hardware-raid-9000503u-1027805142.html", PropertiesFile.getXpath()));
 		//System.out.println(JSONReadFromFile.urlList(file, site, key));
 	}
@@ -60,24 +60,38 @@ public class XpathDummy {
 		return s;//nl.item(0).getFirstChild().getNodeValue();//.replaceAll(" ", "").replaceAll("\n", "");
 	}
 
-	public static void checkAllUrl(List<String> urlList, List<String> xpathList)
-			throws XPathExpressionException, IOException, ParserConfigurationException {
+	public static void checkAllUrl(List<String> urlList, String xpath){
 		String item = key.split("-")[1];
 		String code = "";
 		//String attribute=checkUrlXpath(urlList.get(1), attributePath);
 		for (String url : urlList) {
-
-			for (String xpath : xpathList) {
-				System.out.println(url);
-				code = checkUrlXpath(url, xpath);
-				System.out.println(xpath + " = " + checkUrlXpath(url, xpath));
-
-			}
-
+			System.out.println(url);
+			code = cleanerString(url, xpath);
+			System.out.println(xpath+"= "+code);
 		}
 		//JSONWriter.writeData(site, item, attribute, urlList, code);
 		//JSONWriter.writeXpath(site, item, xpathList, attribute);
 
+	}
+
+	public static String cleanerString(String url, String xpath){
+		String s=null;
+		try{
+			String html = Jsoup.connect(url).get().html();
+			TagNode tagNode = new HtmlCleaner().clean(html);
+			org.w3c.dom.Document doc = new DomSerializer(new CleanerProperties()).createDOM(tagNode);
+			XPathFactory xPathfactory = XPathFactory.newInstance();
+			XPath xpathObj = xPathfactory.newXPath();
+			XPathExpression expr = xpathObj.compile(xpath);
+			s = (String) expr.evaluate(doc, XPathConstants.STRING);
+		} catch (XPathExpressionException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ParserConfigurationException e) {
+			e.printStackTrace();
+		}
+		return s;
 	}
 
 }

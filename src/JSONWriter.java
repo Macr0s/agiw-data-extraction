@@ -198,10 +198,10 @@ class JSONWriter {
 
 	public static void writeXpathJson(){
 		try {
-			String csvFile = "AGIW.tsv";
+			String csvFile = PropertiesFile.getTSV();
 			String precSite="";
 			String currentSite;
-			FileWriter xpathFile = new FileWriter(PropertiesFile.getXpathCognome(),true);
+			FileWriter xpathFile = new FileWriter(PropertiesFile.getXpathCognome(),false);
 			BufferedReader br = null;
 			String line = "";
 			String cvsSplitBy = "\t";
@@ -262,7 +262,7 @@ class JSONWriter {
 
 	public static void writeDataJson(){
 		try {
-			String csvFile = "AGIW.tsv";
+			String csvFile = PropertiesFile.getTSV();
 			String precSite="";
 			String currentSite;
 			FileWriter dataFile = new FileWriter(PropertiesFile.getDataCognome(),true);
@@ -331,11 +331,11 @@ class JSONWriter {
 	//da iniziare
 	public static void writeDataJsonFromTwoCsv(){
 		try {
-			String csvFile = "AGIW.tsv";
+			String csvFile = PropertiesFile.getTSV();
 			Map<String, List<String>> url2Codes = UrlToCodeWriter.putCsvIntoMap();
 			String precSite="";
 			String currentSite;
-			FileWriter dataFile = new FileWriter(PropertiesFile.getDataCognome(),true);
+			FileWriter dataFile = new FileWriter(PropertiesFile.getDataCognome(),false);
 			BufferedReader br = null;
 			String line = "";
 			String cvsSplitBy = "\t";
