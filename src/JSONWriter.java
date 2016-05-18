@@ -19,7 +19,7 @@ import com.google.gson.GsonBuilder;
 
 class JSONWriter {
 	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException {
-//		writeXpathJson();
+		writeXpathJson();
 		writeDataJsonFromTwoCsv();
 		//CsvToJson();
 	}

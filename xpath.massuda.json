@@ -1,6 +1,20 @@
 {
   "www.focusedtechnology.com": {
+    "Microphones": [
+      {
+        "rule": "//div[@class='sku']/text()",
+        "attribute_name": "Part Number",
+        "page_id": "true"
+      }
+    ],
     "NEC Lamps": [
+      {
+        "rule": "//div[@class='sku']/text()",
+        "attribute_name": "Part Number",
+        "page_id": "true"
+      }
+    ],
+    "Optoma Projectors": [
       {
         "rule": "//div[@class='sku']/text()",
         "attribute_name": "Part Number",
@@ -18,6 +32,57 @@
       {
         "rule": "//div[@class='sku']/text()",
         "attribute_name": "Part Number",
+        "page_id": "true"
+      }
+    ]
+  },
+  "www.forever21.com": {
+    "CONTEMPORARY": [
+      {
+        "rule": "(//article[@class='ac-small']/text())[last()]",
+        "attribute_name": "Product Code",
+        "page_id": "true"
+      }
+    ],
+    "Hats & Scarves": [
+      {
+        "rule": "(//article[@class='ac-small']/text())[last()]",
+        "attribute_name": "Product Code",
+        "page_id": "true"
+      }
+    ],
+    "Last Chance Deals": [
+      {
+        "rule": "(//article[@class='ac-small']/text())[last()]",
+        "attribute_name": "Product Code",
+        "page_id": "true"
+      }
+    ],
+    "New Arrivals": [
+      {
+        "rule": "(//article[@class='ac-small']/text())[last()]",
+        "attribute_name": "Product Code",
+        "page_id": "true"
+      }
+    ],
+    "Swim": [
+      {
+        "rule": "(//article[@class='ac-small']/text())[last()]",
+        "attribute_name": "Product Code",
+        "page_id": "true"
+      }
+    ],
+    "Trousers": [
+      {
+        "rule": "(//article[@class='ac-small']/text())[last()]",
+        "attribute_name": "Product Code",
+        "page_id": "true"
+      }
+    ],
+    "sunglasses": [
+      {
+        "rule": "(//article[@class='ac-small']/text())[last()]",
+        "attribute_name": "Product Code",
         "page_id": "true"
       }
     ]
@@ -331,6 +396,18 @@
     ]
   },
   "www.frys.com": {
+    "Anatomy": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+    ],
     "Antenna Accessories": [
       {
         "rule": "//li[@style='width: 160px;'][1]/text()",
@@ -620,6 +697,23 @@
         "page_id": "true"
       }
     ],
+    "Programming": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
     "Reference": [
       {
         "rule": "//li[@style='width: 160px;'][1]/text()",
@@ -723,6 +817,23 @@
       }
     ],
     "Telephone Accessories": [
+      {
+        "rule": "//li[@style='width: 160px;'][1]/text()",
+        "attribute_name": "Frys.com #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/text()",
+        "attribute_name": "UPC #",
+        "page_id": "true"
+      }
+      {
+        "rule": "//li[@style='width: 160px;'][2]/../li[4]/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Wi-Fi Multiroom Audio": [
       {
         "rule": "//li[@style='width: 160px;'][1]/text()",
         "attribute_name": "Frys.com #",
@@ -848,7 +959,21 @@
         "page_id": "true"
       }
     ],
+    "Acoustic Bass Sets": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
     "Acoustic Wall / Ceiling Materials": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "All - In - One Wireless Intercom Headsets": [
       {
         "rule": "//*[@id="ProductInfo"]/p/text()",
         "attribute_name": "OUR PART #",
@@ -863,6 +988,13 @@
       }
     ],
     "Attenuators, Passive Level Control": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Audio / Video Tape Erasers": [
       {
         "rule": "//*[@id="ProductInfo"]/p/text()",
         "attribute_name": "OUR PART #",
@@ -884,6 +1016,13 @@
       }
     ],
     "Bass Guitars, 6+ String": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "Betacam Video Recorders": [
       {
         "rule": "//*[@id="ProductInfo"]/p/text()",
         "attribute_name": "OUR PART #",
@@ -1149,6 +1288,13 @@
         "page_id": "true"
       }
     ],
+    "Installation, Electrical Instruction Books": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
     "Isolators, Hum Eliminators": [
       {
         "rule": "//*[@id="ProductInfo"]/p/text()",
@@ -1177,6 +1323,13 @@
         "page_id": "true"
       }
     ],
+    "Lighting, Theater Instruction Books": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
     "Line Amps, Level Matching Amps": [
       {
         "rule": "//*[@id="ProductInfo"]/p/text()",
@@ -1185,6 +1338,13 @@
       }
     ],
     "Line Array Microphones": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
+    "MIDI Pickups for Guitar": [
       {
         "rule": "//*[@id="ProductInfo"]/p/text()",
         "attribute_name": "OUR PART #",
@@ -1464,6 +1624,13 @@
         "page_id": "true"
       }
     ],
+    "VHS Video Cassettes": [
+      {
+        "rule": "//*[@id="ProductInfo"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "true"
+      }
+    ],
     "Vocal Processors, Trainers": [
       {
         "rule": "//*[@id="ProductInfo"]/p/text()",
@@ -1504,6 +1671,3938 @@
         "rule": "//*[@id="ProductInfo"]/p/text()",
         "attribute_name": "OUR PART #",
         "page_id": "true"
+      }
+    ]
+  },
+  "www.futurepowerpc.com": {
+    "Computers": [
+      {
+        "rule": "//td[@height='30']/span/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Hardware & Peripherals": [
+      {
+        "rule": "//td[@height='30']/span/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Vacuum Cleaners": [
+      {
+        "rule": "//td[@height='30']/span/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "Winterizing": [
+      {
+        "rule": "//td[@height='30']/span/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "\u0095\u00a0Floppy & Zip Drives": [
+      {
+        "rule": "//td[@height='30']/span/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ],
+    "\u0095\u00a0IP Cameras": [
+      {
+        "rule": "//td[@height='30']/span/text()",
+        "attribute_name": "Model #",
+        "page_id": "true"
+      }
+    ]
+  },
+  "www.wasserstrom.com": {
+    "Bakers": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Bamboo Pattern": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Bamboo Picks": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Blendtec Parts": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Blodgett Energy Star": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Bunn Coffee Server": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Bunn Hot Water Dispensers": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Cake Knives and Pastry Servers": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Can Rack": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Carafe Lids and Liners": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Carlisle Serving Bowls": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Case Merchandising Items": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Ceramic Salt & Pepper Shakers": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Chef Coats & Jackets": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "China and Ceramic Ramekins": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Clearance Items": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Cleveland Range Accessories": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Cold Food Table": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Comcor China": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Component Design Parts": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Digital Scales": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Dinner Napkins": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Dishwasher and Disposer Parts": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Disposable Tray Covers and Liners": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Dormont Parts": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Electronics": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Floor Mat Accessories": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Floral Cases": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Food Boxes": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "G.E.T. Milano Dinnerware": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Gas Connectors": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Glass and Plate Chillers": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Glass, China, and Stoneware Pitchers": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Globe Equipment Parts": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Half Size Chafers": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Ice Machine Accessories": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Janitorial": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Jumbo Straws": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Kitchen Gadgets": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Lamp Shades": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Latex Gloves": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Liquid Coffee Dispensers": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Lug Cart": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Markers": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Marmites": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Meiko Energy Star Appliances": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Merchandising Racks": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Misc. Melamine": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Nemco Parts": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "North Coast Medical": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Open Racks": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Other Stands and Tiers": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Oval Platters": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Paper Bakeware": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Paper, Foil & Film Dispensers": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Pass-Thru Refrigerators": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Patio Heaters": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+    ],
+    "Plastic Crocks": [
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[2]/td[2]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
+        "attribute_name": "Model Number",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="specs"]/tbody/tr/td/div/div/table/tbody/tr[9]/td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[2]",
+        "attribute_name": "Item Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[1]/td[1]/text()[3]",
+        "attribute_name": "Model Number 1",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[2]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[3]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[4]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[2]",
+        "attribute_name": "Item Number",
+        "page_id": "false"
+      }
+      {
+        "rule": "//*[@id="right_nav"]/div[2]/div/table/tbody/tr[5]/td[1]/text()[3]",
+        "attribute_name": "Model Number",
+        "page_id": "false"
       }
     ]
   }
