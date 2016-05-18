@@ -1,4 +1,5 @@
 Site	Key	rule	attribute_name	page_id	rule	attribute_name	page_id			
+www.focusedtechnology.com	5601-Microphones	//div[@class='sku']/text()	Part Number	TRUE
 www.focusedtechnology.com	5602-NEC Lamps	//div[@class='sku']/text()	Part Number	TRUE						
 www.focusedtechnology.com	5604-Projector Carrying Cases	//div[@class='sku']/text()	Part Number	TRUE						
 www.focusedtechnology.com	5605-Projectors	//div[@class='sku']/text()	Part Number	TRUE						

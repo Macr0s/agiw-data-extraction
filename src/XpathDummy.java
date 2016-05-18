@@ -75,7 +75,7 @@ public class XpathDummy {
 	}
 
 	public static String cleanerString(String url, String xpath){
-		String s=null;
+		String s="link errato";
 		try{
 			String html = Jsoup.connect(url).get().html();
 			TagNode tagNode = new HtmlCleaner().clean(html);
@@ -84,12 +84,17 @@ public class XpathDummy {
 			XPath xpathObj = xPathfactory.newXPath();
 			XPathExpression expr = xpathObj.compile(xpath);
 			s = (String) expr.evaluate(doc, XPathConstants.STRING);
+			if(s.equals(""))
+				s="NoValueFound";
 		} catch (XPathExpressionException e) {
 			e.printStackTrace();
+			s="XPathExpressionException";
 		} catch (IOException e) {
 			e.printStackTrace();
+			s="IOException";
 		} catch (ParserConfigurationException e) {
 			e.printStackTrace();
+			s="ParserConfigurationException";
 		}
 		return s;
 	}

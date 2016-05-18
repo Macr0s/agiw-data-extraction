@@ -25,7 +25,7 @@ public class UrlToCodeWriter {
 		UrlToCode();
 		/*Map<String, List<String>> url2Codes = putCsvIntoMap();
 		System.out.println(url2Codes.keySet().size());
-		System.out.println(url2Codes.get("http://www.forwardforward.com/product-brinley-sunglasses/OPEO-WG49/?&pdpsrc=rec1&sectionURL=Direct+Hit&d=null"));
+		System.out.println(url2Codes.get("http://www.focusedtechnology.com/william-sound.html"));
 	*/
 	}
 
@@ -112,7 +112,6 @@ public class UrlToCodeWriter {
 			br.close();
 		} catch (IOException e) {
 			e.printStackTrace();
-
 		} catch (XPathExpressionException e) {
 			e.printStackTrace();
 		} catch (ParserConfigurationException e) {
