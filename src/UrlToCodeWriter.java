@@ -33,7 +33,7 @@ public class UrlToCodeWriter {
 		Map<String, List<String>> url2Codes = new HashMap<String, List<String>>();
 		try {
 			String line = "";
-			String cvsSplitBy = ",";
+			String cvsSplitBy = "\t";
 			String csvFile = PropertiesFile.getUrlToCode();
 			BufferedReader br = new BufferedReader(new FileReader(csvFile));
 			while ((line = br.readLine()) != null) {
@@ -82,7 +82,7 @@ public class UrlToCodeWriter {
 					XPathExpression expr = xpathObj.compile(lineSplit[2]);
 					value = (String) expr.evaluate(doc, XPathConstants.STRING);
 
-					complete_line=url+","+value.replaceAll("\n", "");
+					complete_line=url+"\t"+value.replaceAll("\n", "");
 					/*while(int i=5<lineSplit.lenght){
 					 	if(lineSplit[i+2]==true){
 					 	  expr = xpathObj.compile(lineSplit[i]);
@@ -95,12 +95,12 @@ public class UrlToCodeWriter {
 					if(lineSplit.length>5 && !lineSplit[5].equals("")){
 						expr = xpathObj.compile(lineSplit[5]);
 						value = (String) expr.evaluate(doc, XPathConstants.STRING);
-						complete_line=complete_line+","+value.replaceAll("\n", "");
+						complete_line=complete_line+"\t"+value.replaceAll("\n", "");
 					}
 					if(lineSplit.length>8 && !lineSplit[8].equals("")){
 						expr = xpathObj.compile(lineSplit[8]);
 						value = (String) expr.evaluate(doc, XPathConstants.STRING);
-						complete_line=complete_line+","+value.replaceAll("\n", "");
+						complete_line=complete_line+"\t"+value.replaceAll("\n", "");
 					}
 					System.out.println(complete_line);
 					dataFile.write(complete_line+"\n");
