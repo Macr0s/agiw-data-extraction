@@ -18,12 +18,12 @@ import com.google.gson.GsonBuilder;
 
 class JSONWriter {
 	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException {
-		//writeXpathJson();
-		writeDataJsonFromTwoCsv();
+		writeXpathJson();
+		//writeDataJsonFromTwoCsv();
 		//CsvToJson();
 	}
 
-	public static void writeXpath(String site, String item, List<String> xpathList, String attribute){
+	/*public static void writeXpath(String site, String item, List<String> xpathList, String attribute){
 		JSONObject obj = new JSONObject();
 		JSONObject jsonsite = new JSONObject();
 		JSONArray jsonitem = new JSONArray();
@@ -46,9 +46,9 @@ class JSONWriter {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}
+	}*/
 
-	public static void writeData(String site, String item, String attribute, List<String> urlList, String code){
+	/*public static void writeData(String site, String item, String attribute, List<String> urlList, String code){
 		JSONObject obj = new JSONObject();
 		JSONObject jsonsite = new JSONObject();
 		JSONObject jsonitem = new JSONObject();
@@ -75,9 +75,9 @@ class JSONWriter {
 			e.printStackTrace();
 		}
 		
-	}
+	}*/
 
-	public static void CsvToJson() throws XPathExpressionException, ParserConfigurationException{
+	/*public static void CsvToJson() throws XPathExpressionException, ParserConfigurationException{
 		String csvFile = "AGIW.csv";
 		String precSite="";
 		String currentSite;
@@ -194,7 +194,7 @@ class JSONWriter {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}
+	}*/
 
 	public static void writeXpathJson(){
 		try {
@@ -260,7 +260,7 @@ class JSONWriter {
 		}
 	}
 
-	public static void writeDataJson(){
+	/*public static void writeDataJson(){
 		try {
 			String csvFile = PropertiesFile.getTSV();
 			String precSite="";
@@ -327,7 +327,8 @@ class JSONWriter {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}
+	}*/
+	
 	//da iniziare
 	public static void writeDataJsonFromTwoCsv(){
 		try {

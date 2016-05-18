@@ -40,7 +40,7 @@ public class UrlToCodeWriter {
 				String[] lineSplit = line.split(cvsSplitBy);
 				List<String> codeList = new ArrayList<String>();//deve mantenere ordinamento con cui li inserisco
 				for(int i=1;i<lineSplit.length;i++){
-					codeList.add(lineSplit[i].replaceAll("  ", ""));
+					codeList.add(lineSplit[i].replaceAll("   ", ""));
 				}
 				url2Codes.put(lineSplit[0], codeList);
 			}
