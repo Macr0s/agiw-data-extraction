@@ -94,10 +94,10 @@ public class UrlToCodeWriter {
 					int i = 2;
 					while (i < lineSplit.length && !lineSplit[i].equals("")) {
 						if (lineSplit[i + 2].toLowerCase().equals("true")) {
-							value=XpathDummy.cleanerString(url, lineSplit[2]);//riga che fa il controllo
+							value=XpathDummy.cleanerString(url, lineSplit[i]);//riga che fa il controllo
 							/*TagNode tagNode = new HtmlCleaner().clean(html);
 							org.w3c.dom.Document doc = new DomSerializer(new CleanerProperties()).createDOM(tagNode);
-							XPathExpression expr = xpathObj.compile(lineSplit[2]);
+							XPathExpression expr = xpathObj.compile(lineSplit[i]);
 							if (!value.equals("IOException")) {
 								value = (String) expr.evaluate(doc, XPathConstants.STRING);
 							}*/
