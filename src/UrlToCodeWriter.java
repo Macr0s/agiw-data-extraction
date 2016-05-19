@@ -75,50 +75,25 @@ public class UrlToCodeWriter {
 				currentSite = lineSplit[0];
 				String key = lineSplit[1];
 				//System.out.println(currentSite+" - "+key);
+				if(lineSplit[1].split("-",2)[0].equals("5791")){
+					System.out.println("ciao");
+				}
 				List<String> urlList = JSONReadFromFile.urlList(PropertiesFile.getFile(), currentSite, key);
-
-				for (String url : urlList) {
-					/*String html = "";
-					XPathFactory xPathfactory = XPathFactory.newInstance();
-					XPath xpathObj = xPathfactory.newXPath();
-
-					try {
-						html = Jsoup.connect(url).get().html();
-					} catch (IOException e) {
-						value = "IOException";
-						e.printStackTrace();
-					}*/
-
+				System.out.println(currentSite+" "+key+urlList.toString());
+				
+				/*for (String url : urlList) {
 					completeLine = url;
-
 					int i = 2;
 					while (i < lineSplit.length && !lineSplit[i].equals("")) {
 						if (lineSplit[i + 2].toLowerCase().equals("true")) {
 							value=XpathDummy.cleanerString(url, lineSplit[i]);//riga che fa il controllo
-							/*TagNode tagNode = new HtmlCleaner().clean(html);
-							org.w3c.dom.Document doc = new DomSerializer(new CleanerProperties()).createDOM(tagNode);
-							XPathExpression expr = xpathObj.compile(lineSplit[i]);
-							if (!value.equals("IOException")) {
-								value = (String) expr.evaluate(doc, XPathConstants.STRING);
-							}*/
 							completeLine = completeLine + "\t" + value.replaceAll("\n", "");
 						}
 						i = i + 3;
 					}
-
-					/*if(lineSplit.length>5 && !lineSplit[5].equals("")){
-						expr = xpathObj.compile(lineSplit[5]);
-						value = (String) expr.evaluate(doc, XPathConstants.STRING);
-						complete_line=complete_line+"\t"+value.replaceAll("\n", "");
-					}
-					if(lineSplit.length>8 && !lineSplit[8].equals("")){
-						expr = xpathObj.compile(lineSplit[8]);
-						value = (String) expr.evaluate(doc, XPathConstants.STRING);
-						complete_line=complete_line+"\t"+value.replaceAll("\n", "");
-					}*/
 					System.out.println(completeLine);
 					dataFile.write(completeLine + "\n");
-				}
+				}*/
 			}
 			dataFile.flush();
 			dataFile.close();

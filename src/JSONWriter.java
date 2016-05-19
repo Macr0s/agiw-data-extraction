@@ -386,13 +386,21 @@ class JSONWriter {
 				int ii = 0;
 				for (String trueAttribute : trueAttributeList) {
 					dataFile.write("      \"" + trueAttribute + "\": [\n");
+					int lastUrl=1;
 					for (String url : urlList) {
-						Object[] urlArray = url2Codes.get(url).toArray();
-						if (urlArray.length == 0) {
-							dataFile.write("        {\"" + url+ "\": \"\"}\n");
+						Object[] attributeArray = url2Codes.get(url).toArray();
+						if (attributeArray.length == 0) {
+							dataFile.write("        {\"" + url+ "\": \"\"");
 						} else {
-							dataFile.write("        {\"" + url + "\": \"" + urlArray[ii].toString() + "\"}\n");
+							dataFile.write("        {\"" + url + "\": \"" + attributeArray[ii].toString() + "\"");
 						}
+						if(lastUrl==urlList.size()){
+							dataFile.write("}\n");
+						}
+						else {
+							dataFile.write("},\n");
+						}
+						lastUrl++;
 					}
 					
 					if(ii != trueAttributeList.size() - 1) {
