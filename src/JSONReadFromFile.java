@@ -12,7 +12,9 @@ import org.json.simple.parser.JSONParser;
   
 public class JSONReadFromFile {
 	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException {
-		System.out.println(urlList(PropertiesFile.getFile(),"www.futurepowerpc.com","5791-\u0095\u00a0Floppy & Zip Drives"));
+		String site="www.futurepowerpc.com";
+		String key="5792-\u0095\u00a0IP Cameras";
+		System.out.println(urlList(PropertiesFile.getFile(),site,key));
 	}
     public static List<String> urlList(String file, String siteurl, String key){
     	JSONParser parser = new JSONParser();
@@ -23,8 +25,6 @@ public class JSONReadFromFile {
             JSONObject site = (JSONObject)jsonObject.get(siteurl);     
 //            key = key.replaceAll(" ", "\\u00a0");
             JSONArray links = (JSONArray)site.get(key);
-            //System.out.println("\nLink List:");
-            @SuppressWarnings("unchecked")
 			Iterator<String> iterator = links.iterator();
             while (iterator.hasNext()) {
                 //System.out.println(iterator.next());

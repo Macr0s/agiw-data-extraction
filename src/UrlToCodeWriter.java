@@ -3,24 +3,10 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.xpath.XPath;
-import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpression;
-import javax.xml.xpath.XPathExpressionException;
-import javax.xml.xpath.XPathFactory;
-
-import org.htmlcleaner.CleanerProperties;
-import org.htmlcleaner.DomSerializer;
-import org.htmlcleaner.HtmlCleaner;
-import org.htmlcleaner.TagNode;
-import org.jsoup.Jsoup;
 
 public class UrlToCodeWriter {
 	public static void main(String args[]) {
@@ -80,9 +66,8 @@ public class UrlToCodeWriter {
 				}
 				
 				List<String> urlList = JSONReadFromFile.urlList(PropertiesFile.getFile(), currentSite, key);
-				System.out.println(currentSite+" "+key+urlList.toString());
-				
-				/*for (String url : urlList) {
+				//System.out.println(currentSite+" "+key+urlList.toString());
+				for (String url : urlList) {
 					completeLine = url;
 					int i = 2;
 					while (i < lineSplit.length && !lineSplit[i].equals("")) {
@@ -94,17 +79,13 @@ public class UrlToCodeWriter {
 					}
 					System.out.println(completeLine);
 					dataFile.write(completeLine + "\n");
-				}*/
+				}
 			}
 			dataFile.flush();
 			dataFile.close();
 			br.close();
 		} catch (IOException e) {
 			e.printStackTrace();
-		/*} catch (XPathExpressionException e) {
-			e.printStackTrace();
-		} catch (ParserConfigurationException e) {
-			e.printStackTrace();*/
 		}
 	}
 }
