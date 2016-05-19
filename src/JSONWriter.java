@@ -104,7 +104,7 @@ class JSONWriter {
 				}
 				String item=lineSplit[1].split("-",2)[1];
 				String key=lineSplit[1];
-				System.out.println(currentSite+" - "+key);
+				
 				dataFile.write("    \""+item+"\": {\n");
 
 				List<String> urlList =JSONReadFromFile.urlList(PropertiesFile.getFile(), currentSite, key);
@@ -125,11 +125,19 @@ class JSONWriter {
 					dataFile.write("      \"" + trueAttribute + "\": [\n");
 					int lastUrl=1;
 					for (String url : urlList) {
-						Object[] attributeArray = url2Codes.get(url).toArray();
-						if (attributeArray.length == 0) {
+						
+						List<String> attributeArray = url2Codes.get(url);
+						
+						System.out.println(currentSite+" - "+key+" - "+url);
+						if (attributeArray==null || attributeArray.size() == 0) {
+							if(attributeArray==null)
+							System.out.println("null o 0");
 							dataFile.write("        {\"" + url+ "\": \"\"");
 						} else {
-							dataFile.write("        {\"" + url + "\": \"" + attributeArray[attributePosition].toString() + "\"");
+							if(attributeArray.size()>attributePosition)
+								dataFile.write("        {\"" + url + "\": \"" + attributeArray.get(attributePosition) + "\"");
+							else
+								dataFile.write("        {\"" + url + "\": \"\"");
 						}
 						if(lastUrl==urlList.size()){
 							dataFile.write("}\n");

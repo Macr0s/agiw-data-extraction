@@ -22,7 +22,7 @@ public class UrlToCodeWriter {
 		Map<String, List<String>> url2Codes = new HashMap<String, List<String>>();
 		try {
 			String line = "";
-			String cvsSplitBy = "\t";
+			String cvsSplitBy = ",";
 			String csvFile = PropertiesFile.getUrlToCode();
 			BufferedReader br = new BufferedReader(new FileReader(csvFile));
 			while ((line = br.readLine()) != null) {

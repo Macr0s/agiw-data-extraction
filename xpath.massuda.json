@@ -1680,6 +1680,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -1739,6 +1749,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -1804,6 +1824,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -1863,6 +1893,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -1928,6 +1968,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -1987,6 +2037,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -2052,6 +2112,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -2111,6 +2181,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -2176,6 +2256,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -2235,6 +2325,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -2300,6 +2400,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -2359,6 +2469,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -2424,6 +2544,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -2483,6 +2613,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -2548,6 +2688,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -2607,6 +2757,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -2672,6 +2832,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -2731,6 +2901,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -2796,6 +2976,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -2855,6 +3045,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -2920,6 +3120,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -2979,6 +3189,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -3044,6 +3264,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -3103,6 +3333,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -3168,6 +3408,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -3227,6 +3477,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -3292,6 +3552,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -3351,6 +3621,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -3416,6 +3696,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -3475,6 +3765,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -3540,6 +3840,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -3599,6 +3909,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -3664,6 +3984,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -3723,6 +4053,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -3788,6 +4128,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -3847,6 +4197,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -3912,6 +4272,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -3971,6 +4341,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -4036,6 +4416,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -4095,6 +4485,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -4160,6 +4560,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -4219,6 +4629,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -4284,6 +4704,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -4343,6 +4773,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -4408,6 +4848,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -4467,6 +4917,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -4532,6 +4992,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -4591,6 +5061,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -4656,6 +5136,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -4715,6 +5205,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -4780,6 +5280,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -4839,6 +5349,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -4904,6 +5424,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -4963,6 +5493,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -5028,6 +5568,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -5087,6 +5637,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
@@ -5152,6 +5712,16 @@
         "page_id": "true"
       },
       {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
+        "page_id": "true"
+      },
+      {
         "rule": "//div[@class='displaycategoryproducts-wrapper']/table/tbody/tr[1]/td[1]/text()[2]",
         "attribute_name": "Item Number 1",
         "page_id": "false"
@@ -5211,6 +5781,16 @@
       {
         "rule": "//*[@id='specs']/tbody/tr/td/div/div/table/tbody/tr[4]/td[2]/text()",
         "attribute_name": "Model Number",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='UPC']/../../td[2]/text()",
+        "attribute_name": "UPC",
+        "page_id": "true"
+      },
+      {
+        "rule": "//b[text()='Mfg Part #']/../../td[2]/text()",
+        "attribute_name": "Mfg Part #",
         "page_id": "true"
       },
       {
