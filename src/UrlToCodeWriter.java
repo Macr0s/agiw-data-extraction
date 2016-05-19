@@ -61,9 +61,9 @@ public class UrlToCodeWriter {
 				currentSite = lineSplit[0];
 				String key = lineSplit[1];
 				//System.out.println(currentSite+" - "+key);
-				if(lineSplit[1].split("-",2)[0].equals("5791")){
+				/*if(lineSplit[1].split("-",2)[0].equals("5791")){
 					System.out.println("ciao");
-				}
+				}*/
 				
 				List<String> urlList = JSONReadFromFile.urlList(PropertiesFile.getFile(), currentSite, key);
 				//System.out.println(currentSite+" "+key+urlList.toString());
