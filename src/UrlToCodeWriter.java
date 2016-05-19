@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -78,6 +78,7 @@ public class UrlToCodeWriter {
 				if(lineSplit[1].split("-",2)[0].equals("5791")){
 					System.out.println("ciao");
 				}
+				
 				List<String> urlList = JSONReadFromFile.urlList(PropertiesFile.getFile(), currentSite, key);
 				System.out.println(currentSite+" "+key+urlList.toString());
 				

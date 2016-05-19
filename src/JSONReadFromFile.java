@@ -20,7 +20,8 @@ public class JSONReadFromFile {
         try {
             Object obj = parser.parse(new FileReader(file));
             JSONObject jsonObject = (JSONObject) obj;
-            JSONObject site = (JSONObject)jsonObject.get(siteurl);
+            JSONObject site = (JSONObject)jsonObject.get(siteurl);     
+//            key = key.replaceAll(" ", "\\u00a0");
             JSONArray links = (JSONArray)site.get(key);
             //System.out.println("\nLink List:");
             @SuppressWarnings("unchecked")
