@@ -7088,6 +7088,30 @@
   "www.fullcompass.com": {
     "1 / 4\" to 1 / 8\" Mini Adapters": {
       "OUR PART #": [
+        {"http://www.fullcompass.com/product/305897.html": "OUR PART #  GMP113"},
+        {"http://www.fullcompass.com/product/404880.html": "OUR PART #  PC-234S"},
+        {"http://www.fullcompass.com/product/342464.html": "OUR PART #  MST2TS10"},
+        {"http://www.fullcompass.com/product/353845.html": "OUR PART #  MHE100.5"},
+        {"http://www.fullcompass.com/product/306110.html": "OUR PART #  533AB"},
+        {"http://www.fullcompass.com/product/266439.html": "OUR PART #  SP-MF"},
+        {"http://www.fullcompass.com/product/397860.html": "OUR PART #  NYS227"},
+        {"http://www.fullcompass.com/product/333564.html": "OUR PART #  GMP386"},
+        {"http://www.fullcompass.com/product/306170.html": "OUR PART #  559AB"},
+        {"http://www.fullcompass.com/product/397819.html": "OUR PART #  PF3-M3-ADPTR"},
+        {"http://www.fullcompass.com/product/374805.html": "OUR PART #  HPAQA1"},
+        {"http://www.fullcompass.com/product/289073.html": "OUR PART #  GPM103"},
+        {"http://www.fullcompass.com/product/307310.html": "OUR PART #  YMP234"},
+        {"http://www.fullcompass.com/product/397834.html": "OUR PART #  MF3-PM3-ADPTR"},
+        {"http://www.fullcompass.com/product/294063.html": "OUR PART #  GPM179"},
+        {"http://www.fullcompass.com/product/306141.html": "OUR PART #  540AB"},
+        {"http://www.fullcompass.com/product/397821.html": "OUR PART #  PF2-M2-ADPTR"},
+        {"http://www.fullcompass.com/product/291749.html": "OUR PART #  GMP112"},
+        {"http://www.fullcompass.com/product/460265.html": "OUR PART #  559RA"},
+        {"http://www.fullcompass.com/product/288454.html": "OUR PART #  45-222G"},
+        {"http://www.fullcompass.com/product/306149.html": "OUR PART #  549A"},
+        {"http://www.fullcompass.com/product/430838.html": "OUR PART #  40639"},
+        {"http://www.fullcompass.com/product/306168.html": "OUR PART #  558AB"},
+        {"http://www.fullcompass.com/product/307521.html": "OUR PART #  374X"}
       ]
     },
     "500 Series Preamps": {
@@ -9138,10 +9162,30 @@
     },
     "\u0095\u00a0Floppy & Zip Drives": {
       "Model #": [
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=CB_OEM_FLAT_68_2": "OEM    Model #: FLAT-68-2"},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=CB_OEM_FLAT_68_1": "OEM    Model #: FLAT-68-1"},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=CBOM-HDSATAPA06": "OEM    Model #: HDSATAPA06"},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2676-SS-BT-145": ""},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=CBOM-HDSATA19": "OEM    Model #: HDSATA19"},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=CBOM-HDSATA39": "OEM    Model #: HDSATA39"},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=CBOM-SYYCABLE": "OEM    Model #: SYYCABLE"},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=CBOM-HDIDE40P24": "OEM    Model #: CBOM-HDIDE40P24"},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2859-UA-DVD-RW": "UNYTOUCH MANUFACTURING    Model #: UA-DVD-RW"},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2581-SBT-UFDB": "SABRENT    Model #: SBT-UFDB"}
       ]
     },
     "\u0095\u00a0IP Cameras": {
       "Model #": [
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2251-MT-VBM-600D": ""},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2861-CMRA": ""},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2251-MT-WV-NW502S": ""},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2514-QD6507D": ""},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2251-MT-VBM-600VE": ""},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2251-MT-VZ8P3": ""},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2514-QCN8012B": ""},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2251-MT-VC-C50I": "MEDIATECH    Model #: MT-VC-C50I"},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2514-QD6502B": ""},
+        {"http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2251-MT-VZ9PLUS": ""}
       ]
     }
   },
