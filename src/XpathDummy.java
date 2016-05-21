@@ -2,58 +2,93 @@ import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
+
 import java.io.IOException;
+
 import java.util.List;
+
 import org.htmlcleaner.CleanerProperties;
 import org.htmlcleaner.DomSerializer;
 import org.htmlcleaner.HtmlCleaner;
 import org.htmlcleaner.TagNode;
+
+import org.jsoup.Connection;
 import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.xpath.*;
 
 public class XpathDummy {
-	static String file = PropertiesFile.getFile();
-	static String site = PropertiesFile.getSite();
-	static String key = PropertiesFile.getKey();
-	static String xpath = PropertiesFile.getXpath();
-	static String url = "http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2990-43112";
+	private static final String CONNECTION_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36";
 
 	public static void main(String args[]) {
-		//System.out.println(cleanerString(url,xpath));
-		checkAllUrl(JSONReadFromFile.urlList(file, site, key), xpath);
+		testSourceUrls();
 	}
-	
+
+	private static void testSourceUrls() {
+		String sourceFile = PropertiesFile.getFile();
+
+		String site = PropertiesFile.getSite();
+		String key = PropertiesFile.getKey();
+		String xpath = PropertiesFile.getXpath();
+
+		System.out.println(key);
+
+		List<String> urlList = JSONReadFromFile.urlList(sourceFile, site, key);
+		checkAllUrl(urlList, xpath);
+	}
+
 	public static void checkAllUrl(List<String> urlList, String xpath) {
 		String code = "";
-		//String attribute=checkUrlXpath(urlList.get(1), attributePath);
+
 		for (String url : urlList) {
+			if (url == null)
+				continue;
 			code = cleanerString(url, xpath);
-			System.out.println("        {\"" + url + "\": \"" + code + "\"},");			
-			//System.out.println(xpath + "= " + code);
+			//			System.out.println("        {\"" + url + "\": \"" + code + "\"},");
+			System.out.println(code + " => " + xpath + " => " + url);
 		}
+
 	}
 
 	public static String cleanerString(String url, String xpath) {
-		String s = "link errato";
+		String xpathValue = "link errato";
+
 		try {
-			String html = Jsoup.connect(url).get().html();
+			Connection jsoupConnection = Jsoup.connect(url).userAgent(CONNECTION_AGENT);
+			Document htmlDocument = jsoupConnection.get();
+			String html = htmlDocument.html();
+
 			TagNode tagNode = new HtmlCleaner().clean(html);
-			org.w3c.dom.Document doc = new DomSerializer(new CleanerProperties()).createDOM(tagNode);
+			org.w3c.dom.Document cleanedDocument = new DomSerializer(new CleanerProperties()).createDOM(tagNode);
+
 			XPathFactory xPathfactory = XPathFactory.newInstance();
 			XPath xpathObj = xPathfactory.newXPath();
 			XPathExpression expr = xpathObj.compile(xpath);
-			s = (String) expr.evaluate(doc, XPathConstants.STRING);
+			xpathValue = (String) expr.evaluate(cleanedDocument, XPathConstants.STRING);
+
 		} catch (XPathExpressionException e) {
 			e.printStackTrace();
-			s = "XPathExpressionException";
+			xpathValue = "XPathExpressionException";
 		} catch (IOException e) {
+			// 404, 403
 			e.printStackTrace();
-			s = "IOException";
+			xpathValue = "IOException";
 		} catch (ParserConfigurationException e) {
 			e.printStackTrace();
-			s = "ParserConfigurationException";
+			xpathValue = "ParserConfigurationException";
 		}
-		return s;
+
+		return xpathValue;
 	}
+
+	//	private static void testSingleUrl() {
+	//		String testUrl = "http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2990-43112";
+	//		String xpath = "//*[@class='sku']";
+	//		String xpathValue = cleanerString(testUrl,xpath);
+	//		
+	//		System.out.println(xpathValue);
+	//	}
+
 }
