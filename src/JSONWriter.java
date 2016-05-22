@@ -15,15 +15,16 @@ class JSONWriter {
 	}
 	
 	public static void writeXpathJson(){
+		System.out.println("### Writing XPath file ###");
 		try {
-			String csvFile = PropertiesFile.getTSV();
+			String tsvFile = PropertiesFile.getTSV();
 			String precSite="";
 			String currentSite;
 			FileWriter xpathFile = new FileWriter(PropertiesFile.getXpathCognome(),false);
 			BufferedReader br = null;
 			String line = "";
 			String cvsSplitBy = "\t";
-			br = new BufferedReader(new FileReader(csvFile));
+			br = new BufferedReader(new FileReader(tsvFile));
 			line = br.readLine();//salto descrizione
 			line = br.readLine();
 			xpathFile.write("{\n");
@@ -81,6 +82,7 @@ class JSONWriter {
 	}
 	
 	public static void writeDataJsonFromTwoCsv(){
+		System.out.println("### Writing Data file ###");
 		try {
 			String tsvFile = PropertiesFile.getTSV();
 			Map<String, List<String>> url2Codes = UrlToCodeWriter.putCsvIntoMap();

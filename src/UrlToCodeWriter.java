@@ -35,10 +35,8 @@ public class UrlToCodeWriter {
 			}
 			br.close();
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return url2Codes;
@@ -60,19 +58,15 @@ public class UrlToCodeWriter {
 				String[] lineSplit = line.split(cvsSplitBy);
 				currentSite = lineSplit[0];
 				String key = lineSplit[1];
-				//System.out.println(currentSite+" - "+key);
-				/*if(lineSplit[1].split("-",2)[0].equals("5791")){
-					System.out.println("ciao");
-				}*/
-				
+
 				List<String> urlList = JSONReadFromFile.urlList(PropertiesFile.getFile(), currentSite, key);
 				//System.out.println(currentSite+" "+key+urlList.toString());
 				for (String url : urlList) {
 					completeLine = url;
 					int i = 2;
 					while (i < lineSplit.length && !lineSplit[i].equals("")) {
-						if (lineSplit[i + 2].toLowerCase().equals("true")) {
-							value=XpathDummy.cleanerString(url, lineSplit[i]);//riga che fa il controllo
+						if (isPageProduct(lineSplit[i + 2])) {
+							value = XpathDummy.cleanerString(url, lineSplit[i]);//riga che fa il controllo
 							completeLine = completeLine + "\t" + value.replaceAll("\n", "");
 						}
 						i = i + 3;
@@ -87,5 +81,9 @@ public class UrlToCodeWriter {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+	}
+
+	public static boolean isPageProduct(String pageProductField) {
+		return pageProductField.toLowerCase().equals("true") || pageProductField.toLowerCase().equals("1");
 	}
 }
