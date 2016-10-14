@@ -7,7 +7,7 @@ E' stato diviso in questo modo per poter permettere di ricreare i json senza dov
 
 Il formato del file excel per creare il tsv è il seguente:  
 [google doc sheet](https://docs.google.com/spreadsheets/d/17Auedavi5VWnPfuGmY6VP_6a2-MfN7Buj_rwKoqylGQ/pubhtml)  
-![example image](http://imgur.com/a/HIBaF)
+[example image](http://imgur.com/a/HIBaF)
 
 Dovete creare un file config.properties come da esempio (config.properties.example) dove vanno specificati i nomi dei file seguenti:
 - data.cognome e xpath.cognome, i nomi dei file di output
