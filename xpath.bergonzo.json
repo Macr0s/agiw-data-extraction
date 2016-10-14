@@ -1,0 +1,2086 @@
+{
+  "eds-tv.com": {
+    "TV Stands & Tables": [
+      {
+        "rule": "//b[contains(.,\"UPC Code:\")]/following-sibling::text()[1]",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      }
+    ]
+  },
+  "electronicsexpress.com": {
+    "see Tablet Deals": [
+      {
+        "rule": "//*[@class=\"description-bottom\"]/h4/text()",
+        "attribute_name": "Product Number",
+        "page_id": "1"
+      },
+      {
+        "rule": "//*[@class=\"product-description\"]//li[contains(.,\"Part #\")]/text()",
+        "attribute_name": "Part #",
+        "page_id": "1"
+      },
+      {
+        "rule": "//div[@class=\"specs-right\"]/div[@class=\"item\"]/h3[1]/text()",
+        "attribute_name": "Related Models",
+        "page_id": "0"
+      },
+      {
+        "rule": "//div[@class=\"specs-left\"]/div[@class=\"item\"]//h3/a/text()",
+        "attribute_name": "Accessories Models",
+        "page_id": "0"
+      }
+    ]
+  },
+  "en.smartbuyglasses.com.hk": {
+    "sunglasses": [
+      {
+        "rule": "//*[@itemprop=\"gtin13\"]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      }
+    ]
+  },
+  "eprice.it": {
+    "software": [
+      {
+        "rule": "//*[@id=\"ftenhance\"]/strong/text()",
+        "attribute_name": "ProdID",
+        "page_id": "1"
+      }
+    ]
+  },
+  "evatech.com.au": {
+    "Keyboards & Mice": [
+      {
+        "rule": "//*[@id=\"product_reference\"]/span/text()",
+        "attribute_name": "Reference",
+        "page_id": "1"
+      }
+    ]
+  },
+  "fishpond.com.au": {
+    "cutlery": [
+      {
+        "rule": "//td[@itemprop=\"gtin13\"]/text()",
+        "attribute_name": "EAN",
+        "page_id": "1"
+      }
+    ]
+  },
+  "fumfie.com": {
+    "Bundles": [
+      {
+        "rule": "//div[@class=\"itemContentMPN\"]/b[contains(.,\"SKU\")]/following-sibling::node()/text()",
+        "attribute_name": "SKU",
+        "page_id": "1"
+      },
+      {
+        "rule": "//div[@class=\"itemContentMPN\"]/b[contains(.,\"MPN\")]/following-sibling::text()",
+        "attribute_name": "MPN",
+        "page_id": "1"
+      },
+      {
+        "rule": "//div[@class=\"itemContentMPN\"]/b[contains(.,\"UPC\")]/following-sibling::node()/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      }
+    ],
+    "Mirrorless Camera": [
+      {
+        "rule": "//div[@class=\"itemContentMPN\"]/b[contains(.,\"SKU\")]/following-sibling::node()/text()",
+        "attribute_name": "SKU",
+        "page_id": "1"
+      },
+      {
+        "rule": "//div[@class=\"itemContentMPN\"]/b[contains(.,\"MPN\")]/following-sibling::text()",
+        "attribute_name": "MPN",
+        "page_id": "1"
+      },
+      {
+        "rule": "//div[@class=\"itemContentMPN\"]/b[contains(.,\"UPC\")]/following-sibling::node()/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      }
+    ]
+  },
+  "futureshop.ca": {
+    "tv": [
+      {
+        "rule": "//*[@id=\"ctl00_CP_ctl00_PD_lblModelNumber\"]",
+        "attribute_name": "Model #",
+        "page_id": "1"
+      },
+      {
+        "rule": "//*[@id=\"ctl00_CP_ctl00_PD_lblSku\"]",
+        "attribute_name": "Web Code",
+        "page_id": "1"
+      }
+    ]
+  },
+  "geizhals.de": {
+    "software": [
+      {
+        "rule": "//*[@id=\"gh_proddesc\"]/span/p[1]",
+        "attribute_name": "EAN",
+        "page_id": "1"
+      }
+    ]
+  },
+  "globalbrand.com.bd": {
+    "monitor": [
+      {
+        "rule": "//div[@class=\"description\"]/p[2]/text()[3]",
+        "attribute_name": "Product Code",
+        "page_id": "1"
+      }
+    ]
+  },
+  "gsmserver.com": {
+    "Spare Parts for Tablets": [
+      {
+        "rule": "//span[@class=\"product-id\"]/text()",
+        "attribute_name": "ID",
+        "page_id": "1"
+      }
+    ]
+  },
+  "hdtvbonaza.com": {
+    "tv": [
+      {
+        "rule": "//div[@class=\"content\"]/div[@class=\"description\"]/p/text()",
+        "attribute_name": "asin",
+        "page_id": "1"
+      }
+    ]
+  },
+  "hesshomefurnishings.com": {
+    "Cabinets / Consoles": [
+      {
+        "rule": "//*[@id=\"panel2\"]/table/tbody/tr[2]/td[2]",
+        "attribute_name": "item number",
+        "page_id": "1"
+      }
+    ],
+    "Ottomans": [
+      {
+        "rule": "//*[@id=\"panel2\"]/table/tbody/tr[2]/td[2]",
+        "attribute_name": "item number",
+        "page_id": "1"
+      }
+    ],
+    "Video Cameras": [
+      {
+        "rule": "//*[@id=\"panel2\"]/table/tbody/tr[2]/td[2]",
+        "attribute_name": "item number",
+        "page_id": "1"
+      }
+    ]
+  },
+  "homeshopping.ae": {
+    "Acer  (2)": [
+      {
+        "rule": "//div[@id=\"ProductDetails\"]//div[contains(./text(),\"Product ID\")]/../div[@class=\"Value\"]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "1"
+      }
+    ],
+    "Alienware  (17)": [
+      {
+        "rule": "//div[@id=\"ProductDetails\"]//div[contains(./text(),\"Product ID\")]/../div[@class=\"Value\"]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "1"
+      }
+    ],
+    "Asus  (16)": [
+      {
+        "rule": "//div[@id=\"ProductDetails\"]//div[contains(./text(),\"Product ID\")]/../div[@class=\"Value\"]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "1"
+      }
+    ],
+    "Digital Cameras (8)": [
+      {
+        "rule": "//div[@id=\"ProductDetails\"]//div[contains(./text(),\"Product ID\")]/../div[@class=\"Value\"]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "1"
+      }
+    ],
+    "HP  (1)": [
+      {
+        "rule": "//div[@id=\"ProductDetails\"]//div[contains(./text(),\"Product ID\")]/../div[@class=\"Value\"]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "1"
+      }
+    ],
+    "HP  (30)": [
+      {
+        "rule": "//div[@id=\"ProductDetails\"]//div[contains(./text(),\"Product ID\")]/../div[@class=\"Value\"]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "1"
+      }
+    ],
+    "MSI  (1)": [
+      {
+        "rule": "//div[@id=\"ProductDetails\"]//div[contains(./text(),\"Product ID\")]/../div[@class=\"Value\"]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "1"
+      }
+    ],
+    "Sager  (3)": [
+      {
+        "rule": "//div[@id=\"ProductDetails\"]//div[contains(./text(),\"Product ID\")]/../div[@class=\"Value\"]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "1"
+      }
+    ],
+    "Samsung  (1)": [
+      {
+        "rule": "//div[@id=\"ProductDetails\"]//div[contains(./text(),\"Product ID\")]/../div[@class=\"Value\"]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "1"
+      }
+    ],
+    "Samsung  (4)": [
+      {
+        "rule": "//div[@id=\"ProductDetails\"]//div[contains(./text(),\"Product ID\")]/../div[@class=\"Value\"]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "1"
+      }
+    ],
+    "Toshiba  (21)": [
+      {
+        "rule": "//div[@id=\"ProductDetails\"]//div[contains(./text(),\"Product ID\")]/../div[@class=\"Value\"]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "1"
+      }
+    ],
+    "Toshiba  (29)": [
+      {
+        "rule": "//div[@id=\"ProductDetails\"]//div[contains(./text(),\"Product ID\")]/../div[@class=\"Value\"]/text()",
+        "attribute_name": "Product ID",
+        "page_id": "1"
+      }
+    ]
+  },
+  "homeshopping.pk": {
+    "Elite Electronics": [
+      {
+        "rule": "//div[contains(./text(),\"Product ID\")]/../following-sibling::node()[2]/div/text()",
+        "attribute_name": "Product ID",
+        "page_id": "1"
+      }
+    ],
+    "notebook": [
+      {
+        "rule": "//div[contains(./text(),\"Product ID\")]/../following-sibling::node()[2]/div/text()",
+        "attribute_name": "Product ID",
+        "page_id": "1"
+      }
+    ]
+  },
+  "items.techforless.com": {
+    "monitor": [
+      {
+        "rule": "//span[@itemprop=\"identifier\"]/text()",
+        "attribute_name": "Part Number",
+        "page_id": "1"
+      }
+    ]
+  },
+  "www.frontierpc.com": {
+    "Dot Matrix Printers": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "Hybird Hard Drives": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "Label Tape": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "Maintenance Kits": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "NAS Servers": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "Network Interface Cards": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "Network Security & Firewalls": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "Padlocks": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "Photo Paper": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "Remote Management Adapters": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "Servers": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "Storage Media Cases": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "Terminal & Device Servers": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "Thermal Transfer Printers": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "Touchscreen Monitors": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "VIEW ALL COMPUTERS": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "VIEW ALL POWER EQUIPMENT": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "VIEW ALL PRINTERS": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "VIEW ALL SECURITY & SURVEILLANCE": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "VIEW ALL SOFTWARE & SERVICES": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "Video Cards": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "Walkie Talkies": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ],
+    "camera": [
+      {
+        "rule": "//b[contains(.,\"Web ID:\")]/following-sibling::text()",
+        "attribute_name": "Web ID",
+        "page_id": "1"
+      },
+      {
+        "rule": "//b[contains(.,\"Mfr. Part:\")]/following-sibling::node()/text()",
+        "attribute_name": "Mfr. Part",
+        "page_id": "1"
+      }
+    ]
+  },
+  "www.frys.com": {
+    "Air Quality": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Alarms": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Audio Cables & Connectors": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Barebone Systems": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Batteries - Notebook": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Binoculars": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Blu Ray and DVD Players": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "CPU/Processor": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Cables - Audio Cables & Accessories": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Calculators": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Cameras": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Car Video": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Carrying Cases by Size": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Cases": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Cell Phone Chargers": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Cell Phone Connectivity": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Cell Phone Replacement Parts": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Cleaning & Care": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Computer Locks": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Docking Stations & Port Replicators": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Fire & Safety": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Fitness & Exercise": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Flash Cards": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Hair Care": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Hard Drive Cables & Brackets": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Health": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Home Automation Adapters & Modules": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Home Theater Networking": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Home Theater Systems": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "LCD Monitors": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "MP3 / Video Players": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Mac Accessories": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Mac Notebook Accessories": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Mac Pro": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Microscopes & Magnifiers": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Multimedia": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Notebooks": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Office & Business": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Oral Care": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Portable TV and Video": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Powerline": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Print Servers": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Projector & TV Lamps": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Projectors": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Range Extenders": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Refrigerators": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Safes": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Security & Surveillance Cameras": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Shavers & Trimmers": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Shelf Systems": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Speaker Docks": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Streaming Media Players": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Tablet Cables & Adapters": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Tablet Cases": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Tablet Cleaning Kits": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Televisions": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Toys": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "Voice Recorders": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ],
+    "monitor": [
+      {
+        "rule": "//li[contains(./text(),\"UPC\")]/text()",
+        "attribute_name": "UPC",
+        "page_id": "1"
+      },
+      {
+        "rule": "//li[contains(./text(),\"Model\")]/text()",
+        "attribute_name": "Model",
+        "page_id": "1"
+      }
+    ]
+  },
+  "www.fullcompass.com": {
+    "1 / 4\" to XLR Adapters, Transformer Type": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "1 / 8\" Mini to 2.5 mm Adapters": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "76 - Note Keyboard Controllers": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "A / D and D / A Video Converters": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "A/V Controllers": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Accessories for CCTV, Industrial Cameras": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Accessories for DSP Processors": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Accessories for Earbuds, Earsets, Earphones": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Accessories for TV / Monitors": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Accessories for Wireless Microphones": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Accessories for connectors,  Panels, Plates": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Accessories, Recorders": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Acoustic Guitar Preamps and DI": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Acoustic Mounting, Glue, Accessories": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Amplifier Stands": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Android Tablets": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Apple Displays": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Audio, Sound, Recording Instruction Books": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "BNC  Adapters": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "BNC to RCA Adapters": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "BNC to XLR Adapters": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Back Boxes, Enclosures": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Banjos": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Bass Multi - Effects": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Bass and Subwoofers": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Batteries, Non Rechargable": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Battery - Belts, Belt - Bricks": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Bluetooth Wireless Microphone Interfaces": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Business Software": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "CD Changers": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "CD Duplicators": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "CD Label Printers": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "CFast cards": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Cable Reels": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Cable Strippers, Crimpers, Prep. Tools": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Cable TV, RF Distribution Testers": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Camera Pedestals": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Camera Tripods with Heads": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Channel Strips": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Chemicals and Maintenance Supplies": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Chroma Keying": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Color Frames": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Commercial 70 - V. Power Amplifiers": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Commercial Industrial In / On Ceiling Speakers, with grills or enclosures": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Commercial Industrial In / On Wall Speakers": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Complete Drum Sets": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Congas": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Consumer Camcorders": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Control Accessories": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Control Room Talkback Controllers": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "DSP Audio Processor Hardware": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "DV / Firewire IEEE Adapters": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "DVI Splitters": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Data / Digital Adaptors": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Data Patchbays": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Delay and Echo Pedals": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Delays, Time Shifters for Video": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Disk Based Video Recorders": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Distribution Amplifiers, VGA / XGA": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Distribution Amps, Analog Audio": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Electric Guitar Packages": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Electrical Test Equipment": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Electronic Cymbals": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Electronic Drum Accessories and Hardware": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Entertainment Business Books": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Expansion Chassis / Enclosures": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "External Hard Drives": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Ferrite Suppressors": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Flashlights, Headlamps": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Floor Toms": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Fog Machines": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Gaffers Tape": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Ground Lifters": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Guitar Straps": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "HDMI to DVI Adapters": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Haze Machines": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Hi - Hat Stands": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Home Music Players": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Home Theater & Gaming Projectors": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Hubs, USB, Firewire": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Installation Projectors": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Isolators, Hum Eliminators, Video / RF": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Karaoke Systems & Components": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Keyboard Amplifiers and Cabinets": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Keyboard Bags and Cases": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "LED Fresnel - Type Fixtures": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "LED PAR - Type Fixtures": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Laptop Computers": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Left - Handed Acoustic Guitars": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Lenses, Projection": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Light Meters": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "MIDI Interfaces": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "MIDI Keyboard Pedals": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Mac Desktop Computers": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Mac Laptop Computers": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Mallets": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Mandolins": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Masking / noise generators": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Media, CD, Record, Tape, Cases / Bags": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Microphone Accessories": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Microphone Boom / Extension Arms": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Microphone Desk / Short Stands": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Microphone Stand Bags and Cases": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Microphone Stands Tripod Base": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Microphone clips / mounts for lapel / lavalier": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Misc. Cable Accessories": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Misc. Drum Hardware": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Misc. Electric Guitars": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Misc. Equipment Stands / Mounts": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Misc.Guitar Parts": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Mixer Amplifiers, 121 Watts and up": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Mixers  2 to 16 Channels with Digital Outputs": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Mixers  8 to 15 input channels": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Mixers, Broadcast / On - Air": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ],
+    "Mixers, Summing": [
+      {
+        "rule": "//*[@id=\"ProductInfo\"]/p/text()",
+        "attribute_name": "OUR PART #",
+        "page_id": "1"
+      }
+    ]
+  }
+}

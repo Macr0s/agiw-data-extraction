@@ -1,0 +1,11 @@
+data.cognome=data.bergonzo.json
+xpath.cognome=xpath.bergonzo.json
+
+agiwTsv=agiw-data-extraction - total.tsv
+urlToCode=urlToCode-andybergon.csv
+
+file=sources-andybergon.json
+
+site=electronicsexpress.com
+key=630-see Tablet Deals
+xpath=//div[@class="specs-right"]/div[@class="item"]/h3[1]/text()

@@ -1,0 +1,229 @@
+SITO	CHIAVE	PATH	LABEL	PAGE_ID	PATH_2	LABEL_2	PAGE_ID_2	PATH_3	LABEL_3	PAGE_ID_3	PATH_4	LABEL_4	PAGE_ID_4	PATH_5	LABEL_5	PAGE_ID_5	PATH_6	LABEL_6	PAGE_ID_6
+eds-tv.com	622-TV Stands & Tables	//b[contains(.,"UPC Code:")]/following-sibling::text()[1]	UPC	1															
+electronicsexpress.com	630-see Tablet Deals	//*[@class="description-bottom"]/h4/text()	Product Number	1	//*[@class="product-description"]//li[contains(.,"Part #")]/text()	Part #	1	//div[@class="specs-right"]/div[@class="item"]/h3[1]/text()	Related Models	0	//div[@class="specs-left"]/div[@class="item"]//h3/a/text()	Accessories Models	0						
+en.smartbuyglasses.com.hk	632-sunglasses	//*[@itemprop="gtin13"]/text()	UPC	1															
+eprice.it	634-software	//*[@id="ftenhance"]/strong/text()	ProdID	1															
+evatech.com.au	636-Keyboards & Mice	//*[@id="product_reference"]/span/text()	Reference	1															
+fishpond.com.au	643-cutlery	//td[@itemprop="gtin13"]/text()	EAN	1															
+fumfie.com	680-Bundles	//div[@class="itemContentMPN"]/b[contains(.,"SKU")]/following-sibling::node()/text()	SKU	1	//div[@class="itemContentMPN"]/b[contains(.,"MPN")]/following-sibling::text()	MPN	1	//div[@class="itemContentMPN"]/b[contains(.,"UPC")]/following-sibling::node()/text()	UPC	1									
+fumfie.com	681-Mirrorless Camera	//div[@class="itemContentMPN"]/b[contains(.,"SKU")]/following-sibling::node()/text()	SKU	1	//div[@class="itemContentMPN"]/b[contains(.,"MPN")]/following-sibling::text()	MPN	1	//div[@class="itemContentMPN"]/b[contains(.,"UPC")]/following-sibling::node()/text()	UPC	1									
+futureshop.ca	683-tv	//*[@id="ctl00_CP_ctl00_PD_lblModelNumber"]	Model #	1	//*[@id="ctl00_CP_ctl00_PD_lblSku"]	Web Code	1												
+geizhals.de	686-software	//*[@id="gh_proddesc"]/span/p[1]	EAN	1															
+globalbrand.com.bd	687-monitor	//div[@class="description"]/p[2]/text()[3]	Product Code	1															
+gsmserver.com	690-Spare Parts for Tablets	//span[@class="product-id"]/text()	ID	1															
+hdtvbonaza.com	697-tv	//div[@class="content"]/div[@class="description"]/p/text()	asin	1															
+hesshomefurnishings.com	699-Cabinets / Consoles	//*[@id="panel2"]/table/tbody/tr[2]/td[2]	item number	1															
+hesshomefurnishings.com	700-Ottomans	//*[@id="panel2"]/table/tbody/tr[2]/td[2]	item number	1															
+hesshomefurnishings.com	701-Video Cameras	//*[@id="panel2"]/table/tbody/tr[2]/td[2]	item number	1															
+homeshopping.ae	708-Acer  (2)	//div[@id="ProductDetails"]//div[contains(./text(),"Product ID")]/../div[@class="Value"]/text()	Product ID	1															
+homeshopping.ae	709-Alienware  (17)	//div[@id="ProductDetails"]//div[contains(./text(),"Product ID")]/../div[@class="Value"]/text()	Product ID	1															
+homeshopping.ae	710-Asus  (16)	//div[@id="ProductDetails"]//div[contains(./text(),"Product ID")]/../div[@class="Value"]/text()	Product ID	1															
+homeshopping.ae	711-Digital Cameras (8)	//div[@id="ProductDetails"]//div[contains(./text(),"Product ID")]/../div[@class="Value"]/text()	Product ID	1															
+homeshopping.ae	712-HP  (1)	//div[@id="ProductDetails"]//div[contains(./text(),"Product ID")]/../div[@class="Value"]/text()	Product ID	1															
+homeshopping.ae	713-HP  (30)	//div[@id="ProductDetails"]//div[contains(./text(),"Product ID")]/../div[@class="Value"]/text()	Product ID	1															
+homeshopping.ae	714-MSI  (1)	//div[@id="ProductDetails"]//div[contains(./text(),"Product ID")]/../div[@class="Value"]/text()	Product ID	1															
+homeshopping.ae	715-Sager  (3)	//div[@id="ProductDetails"]//div[contains(./text(),"Product ID")]/../div[@class="Value"]/text()	Product ID	1															
+homeshopping.ae	716-Samsung  (1)	//div[@id="ProductDetails"]//div[contains(./text(),"Product ID")]/../div[@class="Value"]/text()	Product ID	1															
+homeshopping.ae	717-Samsung  (4)	//div[@id="ProductDetails"]//div[contains(./text(),"Product ID")]/../div[@class="Value"]/text()	Product ID	1															
+homeshopping.ae	718-Toshiba  (21)	//div[@id="ProductDetails"]//div[contains(./text(),"Product ID")]/../div[@class="Value"]/text()	Product ID	1															
+homeshopping.ae	719-Toshiba  (29)	//div[@id="ProductDetails"]//div[contains(./text(),"Product ID")]/../div[@class="Value"]/text()	Product ID	1															
+homeshopping.pk	720-Elite Electronics	//div[contains(./text(),"Product ID")]/../following-sibling::node()[2]/div/text()	Product ID	1															
+homeshopping.pk	722-notebook	//div[contains(./text(),"Product ID")]/../following-sibling::node()[2]/div/text()	Product ID	1															
+items.techforless.com	729-monitor	//span[@itemprop="identifier"]/text()	Part Number	1															
+www.frontierpc.com	9800-Dot Matrix Printers	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9801-Hybird Hard Drives	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9802-Label Tape	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9803-Maintenance Kits	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9804-NAS Servers	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9805-Network Interface Cards	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9806-Network Security & Firewalls	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9807-Padlocks	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9808-Photo Paper	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9809-Remote Management Adapters	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9810-Servers	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9811-Storage Media Cases	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9812-Terminal & Device Servers	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9813-Thermal Transfer Printers	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9814-Touchscreen Monitors	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9815-VIEW ALL COMPUTERS	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9816-VIEW ALL POWER EQUIPMENT	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9817-VIEW ALL PRINTERS	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9818-VIEW ALL SECURITY & SURVEILLANCE	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9819-VIEW ALL SOFTWARE & SERVICES	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9820-Video Cards	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9821-Walkie Talkies	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frontierpc.com	9822-camera	//b[contains(.,"Web ID:")]/following-sibling::text()	Web ID	1	//b[contains(.,"Mfr. Part:")]/following-sibling::node()/text()	Mfr. Part	1												
+www.frys.com	9825-Air Quality	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9826-Alarms	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9827-Audio Cables & Connectors	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9828-Barebone Systems	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9829-Batteries - Notebook	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9830-Binoculars	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9831-Blu Ray and DVD Players	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9832-CPU/Processor	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9833-Cables - Audio Cables & Accessories	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9834-Calculators	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9835-Cameras	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9836-Car Video	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9837-Carrying Cases by Size	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9838-Cases	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9839-Cell Phone Chargers	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9840-Cell Phone Connectivity	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9841-Cell Phone Replacement Parts	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9842-Cleaning & Care	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9843-Computer Locks	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9844-Docking Stations & Port Replicators	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9845-Fire & Safety	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9846-Fitness & Exercise	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9847-Flash Cards	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9848-Hair Care	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9849-Hard Drive Cables & Brackets	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9850-Health	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9851-Home Automation Adapters & Modules	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9852-Home Theater Networking	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9853-Home Theater Systems	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9854-LCD Monitors	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9855-MP3 / Video Players	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9856-Mac Accessories	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9857-Mac Notebook Accessories	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9858-Mac Pro	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9859-Microscopes & Magnifiers	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9860-Multimedia	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9861-Notebooks	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9862-Office & Business	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9863-Oral Care	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9864-Portable TV and Video	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9865-Powerline	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9866-Print Servers	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9867-Projector & TV Lamps	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9868-Projectors	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9869-Range Extenders	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9870-Refrigerators	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9871-Safes	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9872-Security & Surveillance Cameras	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9873-Shavers & Trimmers	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9874-Shelf Systems	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9875-Speaker Docks	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9876-Streaming Media Players	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9877-Tablet Cables & Adapters	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9878-Tablet Cases	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9879-Tablet Cleaning Kits	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9880-Televisions	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9881-Toys	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9882-Voice Recorders	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.frys.com	9883-monitor	//li[contains(./text(),"UPC")]/text()	UPC	1	//li[contains(./text(),"Model")]/text()	Model	1												
+www.fullcompass.com	9886-1 / 4" to XLR Adapters, Transformer Type	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9887-1 / 8" Mini to 2.5 mm Adapters	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9888-76 - Note Keyboard Controllers	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9889-A / D and D / A Video Converters	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9890-A/V Controllers	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9891-Accessories for CCTV, Industrial Cameras	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9892-Accessories for DSP Processors	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9893-Accessories for Earbuds, Earsets, Earphones	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9894-Accessories for TV / Monitors	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9895-Accessories for Wireless Microphones	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9896-Accessories for connectors,  Panels, Plates	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9897-Accessories, Recorders	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9898-Acoustic Guitar Preamps and DI	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9899-Acoustic Mounting, Glue, Accessories	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9900-Amplifier Stands	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9901-Android Tablets	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9902-Apple Displays	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9903-Audio, Sound, Recording Instruction Books	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9904-BNC  Adapters	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9905-BNC to RCA Adapters	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9906-BNC to XLR Adapters	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9907-Back Boxes, Enclosures	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9908-Banjos	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9909-Bass Multi - Effects	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9910-Bass and Subwoofers	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9911-Batteries, Non Rechargable	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9912-Battery - Belts, Belt - Bricks	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9913-Bluetooth Wireless Microphone Interfaces	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9914-Business Software	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9915-CD Changers	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9916-CD Duplicators	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9917-CD Label Printers	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9918-CFast cards	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9919-Cable Reels	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9920-Cable Strippers, Crimpers, Prep. Tools	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9921-Cable TV, RF Distribution Testers	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9922-Camera Pedestals	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9923-Camera Tripods with Heads	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9924-Channel Strips	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9925-Chemicals and Maintenance Supplies	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9926-Chroma Keying	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9927-Color Frames	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9928-Commercial 70 - V. Power Amplifiers	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9929-Commercial Industrial In / On Ceiling Speakers, with grills or enclosures	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9930-Commercial Industrial In / On Wall Speakers	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9931-Complete Drum Sets	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9932-Congas	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9933-Consumer Camcorders	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9934-Control Accessories	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9935-Control Room Talkback Controllers	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9936-DSP Audio Processor Hardware	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9937-DV / Firewire IEEE Adapters	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9938-DVI Splitters	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9939-Data / Digital Adaptors	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9940-Data Patchbays	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9941-Delay and Echo Pedals	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9942-Delays, Time Shifters for Video	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9943-Disk Based Video Recorders	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9944-Distribution Amplifiers, VGA / XGA	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9945-Distribution Amps, Analog Audio	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9946-Electric Guitar Packages	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9947-Electrical Test Equipment	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9948-Electronic Cymbals	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9949-Electronic Drum Accessories and Hardware	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9950-Entertainment Business Books	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9951-Expansion Chassis / Enclosures	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9952-External Hard Drives	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9953-Ferrite Suppressors	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9954-Flashlights, Headlamps	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9955-Floor Toms	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9956-Fog Machines	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9957-Gaffers Tape	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9958-Ground Lifters	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9959-Guitar Straps	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9960-HDMI to DVI Adapters	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9961-Haze Machines	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9962-Hi - Hat Stands	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9963-Home Music Players	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9964-Home Theater & Gaming Projectors	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9965-Hubs, USB, Firewire	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9966-Installation Projectors	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9967-Isolators, Hum Eliminators, Video / RF	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9968-Karaoke Systems & Components	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9969-Keyboard Amplifiers and Cabinets	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9970-Keyboard Bags and Cases	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9971-LED Fresnel - Type Fixtures	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9972-LED PAR - Type Fixtures	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9973-Laptop Computers	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9974-Left - Handed Acoustic Guitars	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9975-Lenses, Projection	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9976-Light Meters	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9977-MIDI Interfaces	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9978-MIDI Keyboard Pedals	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9979-Mac Desktop Computers	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9980-Mac Laptop Computers	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9981-Mallets	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9982-Mandolins	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9983-Masking / noise generators	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9984-Media, CD, Record, Tape, Cases / Bags	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9985-Microphone Accessories	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9986-Microphone Boom / Extension Arms	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9987-Microphone Desk / Short Stands	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9988-Microphone Stand Bags and Cases	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9989-Microphone Stands Tripod Base	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9990-Microphone clips / mounts for lapel / lavalier	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9991-Misc. Cable Accessories	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9992-Misc. Drum Hardware	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9993-Misc. Electric Guitars	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9994-Misc. Equipment Stands / Mounts	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9995-Misc.Guitar Parts	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9996-Mixer Amplifiers, 121 Watts and up	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9997-Mixers  2 to 16 Channels with Digital Outputs	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9998-Mixers  8 to 15 input channels	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	9999-Mixers, Broadcast / On - Air	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															
+www.fullcompass.com	10000-Mixers, Summing	//*[@id="ProductInfo"]/p/text()	OUR PART #	1															

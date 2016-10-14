@@ -34,7 +34,7 @@ public class PropertiesFile {
 			}
 		}
 	}
-	
+
 	public static String getUrlToCode() {
 		String path = null;
 		Properties prop = new Properties();
@@ -58,7 +58,7 @@ public class PropertiesFile {
 			}
 		}
 	}
-	
+
 	public static String getTSV() {
 		String path = null;
 		Properties prop = new Properties();

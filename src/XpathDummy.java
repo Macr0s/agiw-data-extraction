@@ -43,10 +43,10 @@ public class XpathDummy {
 		String code = "";
 
 		for (String url : urlList) {
-			if (url == null)
-				continue;
-			code = cleanerString(url, xpath);
-			//			System.out.println("        {\"" + url + "\": \"" + code + "\"},");
+			if (url != null)
+				code = cleanerString(url, xpath);
+
+			// System.out.println(" {\"" + url + "\": \"" + code + "\"},");
 			System.out.println(code + " => " + xpath + " => " + url);
 		}
 
@@ -67,28 +67,32 @@ public class XpathDummy {
 			XPath xpathObj = xPathfactory.newXPath();
 			XPathExpression expr = xpathObj.compile(xpath);
 			xpathValue = (String) expr.evaluate(cleanedDocument, XPathConstants.STRING);
+			xpathValue = xpathValue.trim();
 
 		} catch (XPathExpressionException e) {
-			e.printStackTrace();
+			// e.printStackTrace();
+			System.out.println(e.getMessage());
 			xpathValue = "XPathExpressionException";
 		} catch (IOException e) {
 			// 404, 403
-			e.printStackTrace();
+			// e.printStackTrace();
+			System.out.println(e.getMessage());
 			xpathValue = "IOException";
 		} catch (ParserConfigurationException e) {
-			e.printStackTrace();
+			// e.printStackTrace();
+			System.out.println(e.getMessage());
 			xpathValue = "ParserConfigurationException";
 		}
 
 		return xpathValue;
 	}
 
-	//	private static void testSingleUrl() {
-	//		String testUrl = "http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2990-43112";
-	//		String xpath = "//*[@class='sku']";
-	//		String xpathValue = cleanerString(testUrl,xpath);
-	//		
-	//		System.out.println(xpathValue);
-	//	}
+	// private static void testSingleUrl() {
+	// String testUrl = "http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2990-43112";
+	// String xpath = "//*[@class='sku']";
+	// String xpathValue = cleanerString(testUrl,xpath);
+	//
+	// System.out.println(xpathValue);
+	// }
 
 }
