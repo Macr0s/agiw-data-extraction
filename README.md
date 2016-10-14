@@ -1,3 +1,4 @@
+Andrea Bergonzo & [Luca Massuda] (https://github.com/Massuda)
 # data-extraction
 Il progetto è diviso principalmente in 2 parti:
 - la prima parte che dato un file .tsv (Tab-separated values) in un formato specificato sotto effettua le richieste ai siti web e crea un file (nel nostro esempio chiamato urlToCode.csv) che contiene i siti e i codici ricavati con gli xpath.
