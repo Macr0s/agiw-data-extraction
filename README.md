@@ -1,9 +1,10 @@
 # data-extraction
+Andrea Bergonzo & [Luca Massuda] (https://github.com/Massuda)
+
 Il progetto è diviso principalmente in 2 parti:
 
-- la prima parte che dato un file .tsv (Tab-separated values) (esempio: **AGIW.tsv**) in un formato specificato sotto effettua le richieste ai siti web e crea un file (nel nostro esempio chiamato **urlToCode.csv**) che contiene i siti e i codici ricavati con gli xpath.
-Per la creazione di questo tsv noi usavamo un foglio excel su drive esportandolo poi come tsv.
-
+- la prima parte che dato un file .tsv (Tab-separated values) (esempio: **AGIW.tsv**) in un formato specificato sotto effettua le richieste ai siti web e crea un file (nel nostro esempio chiamato **urlToCode.csv**) che contiene i siti e i codici ricavati con gli xpath.  
+Per la creazione di questo tsv noi usavamo un foglio excel su drive esportandolo poi come tsv.  
 Il formato del file excel per creare il tsv è il seguente:  
 [google doc sheet](https://docs.google.com/spreadsheets/d/17Auedavi5VWnPfuGmY6VP_6a2-MfN7Buj_rwKoqylGQ/pubhtml)  
 [example image](http://imgur.com/a/HIBaF)
