@@ -82,7 +82,12 @@ public class XpathDummy {
 			// e.printStackTrace();
 			System.out.println(e.getMessage());
 			xpathValue = "ParserConfigurationException";
+		} catch (Exception e) {
+			// e.printStackTrace();
+			System.out.println(e.getMessage());
+			xpathValue = "UnspecifiedException";
 		}
+		
 
 		return xpathValue;
 	}

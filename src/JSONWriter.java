@@ -62,9 +62,17 @@ class JSONWriter {
 
 					xpathFile.write("        \"rule\": \"" + rule + "\",\n");
 					i++;
-					xpathFile.write("        \"attribute_name\": \"" + lineSplit[i] + "\",\n");
+					if(i < lineSplit.length) 
+						xpathFile.write("        \"attribute_name\": \"" + lineSplit[i] + "\",\n");
+					else {
+						xpathFile.write("        \"attribute_name\": \"UNDEFINED\",\n");
+						xpathFile.write("        \"page_id\": \"false\"\n");
+					}
 					i++;
-					xpathFile.write("        \"page_id\": \"" + lineSplit[i].toLowerCase() + "\"\n");
+					if(i < lineSplit.length) 
+						xpathFile.write("        \"page_id\": \"" + lineSplit[i].toLowerCase() + "\"\n");
+					else 
+						xpathFile.write("        \"page_id\": \"false\"\n");
 					i++;
 				}
 				xpathFile.write("      }\n");
@@ -152,7 +160,7 @@ class JSONWriter {
 
 						List<String> attributeArray = url2Codes.get(url);
 
-						// controlla! in data con più codici di cui alcuni null
+						// controlla! in data con piu' codici di cui alcuni null
 						if (attributeArray == null || attributeArray.size() <= attributePosition) {
 							if (attributeArray == null) {
 								System.out.println("null o 0 => " + currentSite + " => " + key + " => " + url);
