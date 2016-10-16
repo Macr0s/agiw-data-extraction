@@ -82,13 +82,13 @@ public class UrlToCodeWriter {
 						if (i < lineSplit.length) {
 							value = XpathDummy.cleanerString(url, lineSplit[i]);// riga che fa il controllo
 							value = value.trim().replaceAll("\n", "");
-							System.out.println(url + " - applying " + lineSplit[i] + " - got " + value);
+							//System.out.println(url + " - applying " + lineSplit[i] + " - got " + value);
 							completeLine = completeLine + URL_TO_CODE_DELIMITER + value;
 						}
 						i = i + 3;
 					}
 
-					//System.out.println(completeLine);
+					System.out.println(completeLine);
 					dataFile.write(completeLine + "\n");
 				}
 			}
