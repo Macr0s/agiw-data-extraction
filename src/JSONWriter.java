@@ -143,9 +143,9 @@ class JSONWriter {
 
 				int i = 3;
 				while (i < lineSplit.length) {
-					//if (lineSplit[i].equals("TRUE") || lineSplit[i].equals("1")) {
+					if (lineSplit[i].toLowerCase().equals("true") || lineSplit[i].equals("1") || lineSplit[i].toLowerCase().equals("false") || lineSplit[i].equals("0")) {
 						trueAttributeList.add(lineSplit[i - 1]);
-					//}
+					}
 					i++;
 				}
 
