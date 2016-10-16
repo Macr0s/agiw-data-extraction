@@ -21,7 +21,7 @@ public class UrlToCodeWriter {
 		 */
 	}
 
-	// mappa usata per andare pi� veloci in fase di ricerca url
+	// mappa usata per andare piu' veloci in fase di ricerca url
 	public static Map<String, List<String>> putCsvIntoMap() {
 		Map<String, List<String>> url2Codes = new HashMap<String, List<String>>();
 		try {
@@ -57,7 +57,7 @@ public class UrlToCodeWriter {
 			BufferedReader br = new BufferedReader(new FileReader(tsvFile));
 			String line = "";
 			String tsvDelimiter = "\t";
-			line = br.readLine();// salto descrizione
+			line = br.readLine(); // salto descrizione
 
 			while ((line = br.readLine()) != null) {
 				String completeLine = "";
@@ -78,15 +78,17 @@ public class UrlToCodeWriter {
 					int i = 2;
 
 					while (i < lineSplit.length && !lineSplit[i].equals("")) {
-						if (isPageProduct(lineSplit[i + 2])) {
+						//if (i+1 < lineSplit.length && isPageProduct(lineSplit[i + 2])) {
+						if (i < lineSplit.length) {
 							value = XpathDummy.cleanerString(url, lineSplit[i]);// riga che fa il controllo
-							value = value.trim();
-							completeLine = completeLine + URL_TO_CODE_DELIMITER + value.replaceAll("\n", "");
+							value = value.trim().replaceAll("\n", "");
+							System.out.println(url + " - applying " + lineSplit[i] + " - got " + value);
+							completeLine = completeLine + URL_TO_CODE_DELIMITER + value;
 						}
 						i = i + 3;
 					}
 
-					System.out.println(completeLine);
+					//System.out.println(completeLine);
 					dataFile.write(completeLine + "\n");
 				}
 			}
