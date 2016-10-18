@@ -57,7 +57,7 @@ public class XpathDummy {
 
 		try {
 			Connection jsoupConnection = Jsoup.connect(url).userAgent(CONNECTION_AGENT);
-			Document htmlDocument = jsoupConnection.get();
+			Document htmlDocument = jsoupConnection.timeout(10000).get();
 			String html = htmlDocument.html();
 
 			TagNode tagNode = new HtmlCleaner().clean(html);
