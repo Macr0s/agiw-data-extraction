@@ -20,5 +20,5 @@ config.properties
 xpath*.json
 sources*.json
 urlToCode*.csv
-AGIW*.csv
-agiw*.csw
+AGIW*.tsv
+agiw*.tsv
