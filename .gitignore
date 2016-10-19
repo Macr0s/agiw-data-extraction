@@ -15,3 +15,10 @@ target/
 
 # Project Specific
 config.properties
+
+# generated stuff
+xpath*.json
+sources*.json
+urlToCode*.csv
+AGIW*.csv
+agiw*.csw
