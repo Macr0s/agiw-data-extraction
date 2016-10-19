@@ -91,6 +91,57 @@ public class XpathDummy {
 
 		return xpathValue;
 	}
+	
+	public static String cleanerString2(String html, String xpath) {
+		String xpathValue = "link errato";
+
+		try {
+			TagNode tagNode = new HtmlCleaner().clean(html);
+			org.w3c.dom.Document cleanedDocument = new DomSerializer(new CleanerProperties()).createDOM(tagNode);
+
+			XPathFactory xPathfactory = XPathFactory.newInstance();
+			XPath xpathObj = xPathfactory.newXPath();
+			XPathExpression expr = xpathObj.compile(xpath);
+			xpathValue = (String) expr.evaluate(cleanedDocument, XPathConstants.STRING);
+			xpathValue = xpathValue.trim();
+
+		} catch (XPathExpressionException e) {
+			// e.printStackTrace();
+			System.out.println(e.getMessage());
+			xpathValue = "XPathExpressionException";
+		} catch (ParserConfigurationException e) {
+			// e.printStackTrace();
+			System.out.println(e.getMessage());
+			xpathValue = "ParserConfigurationException";
+		} catch (Exception e) {
+			// e.printStackTrace();
+			System.out.println(e.getMessage());
+			xpathValue = "UnspecifiedException";
+		}
+		
+		return xpathValue;
+	}
+	
+	public static String getHTML(String url) {
+		String html = "";
+
+		try {
+			Connection jsoupConnection = Jsoup.connect(url).userAgent(CONNECTION_AGENT);
+			Document htmlDocument = jsoupConnection.get();
+			html = htmlDocument.html();
+		} catch (IOException e) {
+			// 404, 403
+			// e.printStackTrace();
+			System.out.println(e.getMessage());
+			html = "";
+		} catch (Exception e) {
+			// e.printStackTrace();
+			System.out.println(e.getMessage());
+			html = "";
+		}
+		
+		return html;
+	}
 
 	// private static void testSingleUrl() {
 	// String testUrl = "http://www.futurepowerpc.com/scripts/product.asp?PRDCODE=2990-43112";

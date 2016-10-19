@@ -75,12 +75,13 @@ public class UrlToCodeWriter {
 					}
 
 					completeLine = url;
+					String html = XpathDummy.getHTML(url);
 					int i = 2;
 
 					while (i < lineSplit.length && !lineSplit[i].equals("")) {
 						//if (i+1 < lineSplit.length && isPageProduct(lineSplit[i + 2])) {
 						if (i < lineSplit.length) {
-							value = XpathDummy.cleanerString(url, lineSplit[i]);// riga che fa il controllo
+							value = XpathDummy.cleanerString2(html, lineSplit[i]);// riga che fa il controllo
 							value = value.trim().replaceAll("\n", "");
 							//System.out.println(url + " - applying " + lineSplit[i] + " - got " + value);
 							completeLine = completeLine + URL_TO_CODE_DELIMITER + value;
